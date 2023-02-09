@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "3.0.0",
+  "description": "The backend (model,controllers) of the IMPETUS project",
+  "author": {
+    "name": "Paraskevi Fasouli"
+  },
+  "main": "Main.js",
+  "scripts": {
+    "dev": "node MainDev.js",
+    "start": "pm2 start Main.js --time --log ./logFile.txt",
+    "debug" : "pm2 start Main.js --no-daemon",
+    "stop": "pm2 stop Main.js && pm2 delete Main",
+    "build": "cd ../client && npm run build"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "btoa": "^1.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "helmet": "^5.0.2",
+    "multer": "^1.4.3",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.12",
+    "npm-check": "^5.9.2",
+    "pm2": "^5.2.2",
+    "rethinkdb": "^2.4.2"
+  },
+  "engines": {
+    "node": ">= 16.16.0",
+    "npm": ">= 6.0.0"
+  }
+}

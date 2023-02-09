@@ -1,0 +1,1072 @@
+{
+    "name": "Heat Stress",
+    "type": "IO4",
+    "totalQ": 38,
+    "questions":[
+        {
+            "stepId": 0,
+            "questionId": "",
+            "question": "",
+            "questionType": "start",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 1
+                }
+            ],
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 1,
+            "questionId": 1,
+            "question": "Give the name of the students in your team: (one name per line)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 2
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 2,
+            "questionId": 2,
+            "question": "Give the name of the city:",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 3
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 3,
+            "questionId": 3,
+            "question": "Give the name of the selected street/neighbourhood:",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 4
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 4,
+            "questionId": 4,
+            "question": "Date of observation (DD/MM/YY):",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 5
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 5,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 6
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "IMPETUS: Heat Stress Activity"
+                  ],
+                  "text": [
+                    "For the selected urban area, and based on your observations, answer the following questions to register representative attributes of the street and neighbouring area."
+                  ],
+                  "steps": []
+            },
+            "noteButtonText": "START",
+            "images": []
+        },
+        {
+            "stepId": 6,
+            "questionId": 5,
+            "question": "Type of urban area grid:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Regular grid",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "Irregular grid",
+                    "nextStep": 7
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_24.png"
+                }
+            ]
+        },
+        {
+            "stepId": 7,
+            "questionId": 6,
+            "question": "Type of construction composition:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Compact low-rise",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Open low-rise",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Compact mid-rise",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Open mid-rise",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Compact high-rise",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Open high-rise",
+                    "nextStep": 8
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_25.png"
+                }
+            ]
+        },
+        {
+            "stepId": 8,
+            "questionId": 7,
+            "question": "Type of occupation",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Residental",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Commerce",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Business Center",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Services",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Parking",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Green area (leisure)",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Schools",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Sports fields",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Other",
+                    "nextStep": 9
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 9,
+            "questionId": 8,
+            "question": "Give the length of the studied street (m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 10
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 10,
+            "questionId": 9,
+            "question": "Give the maximum elevation difference (m)",
+            "min": -428,
+            "max": 8850,
+            "questionType": "number",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 11
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 11,
+            "questionId": 10,
+            "question": "Orientation of the main street and buildings",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "N-S",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "E-W",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "NE-SW",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "NW-SE",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "NNE-SSW",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "NNW-SSE",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "WNW-ESE",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "WSW-ENE",
+                    "nextStep": 12
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": [
+                  {
+                    "imgPath": "Picture_26.png"
+                  }
+            ]
+        },
+        {
+            "stepId": 12,
+            "questionId": 11,
+            "question": "Give the mean buildings' height (H, in m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 13
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_27.png"
+                }
+            ]
+        },
+        {
+            "stepId": 13,
+            "questionId": 12,
+            "question": "Give the mean street's width (W, in m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 14
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 14,
+            "questionId": 13,
+            "question": "Give the street canyon aspect ratio (= H/W)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 15
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 15,
+            "questionId": 14,
+            "question": "Consider the distance between two major intersections along the street, defined as the length (L, in m) of the street canyon. The street canyon is a:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Short canyon (L/H ≈ 3)",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "Medium canyon (L/H ≈ 5)",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "Long canyon (L/H ≥ 7)",
+                    "nextStep": 16
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_28.png"
+                }
+            ]
+        },
+        {
+            "stepId": 16,
+            "questionId": 15,
+            "question": "Symmetry of the street canyon, with respect to the height of the buildings that make the canyon: (i.e. on both sides of the canyon)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Symmetric canyon",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "Asymmetric canyon",
+                    "nextStep": 17
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 17,
+            "questionId": 16,
+            "question": "Building's roof material",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Terracotta",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Metal",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Conctrete",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Green roof",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Other",
+                    "nextStep": 18
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_29.png"
+                }
+            ]
+        },
+        {
+            "stepId": 18,
+            "questionId": 17,
+            "question": "Building's roof color",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Light",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Medium",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Dark",
+                    "nextStep": 19
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 19,
+            "questionId": 18,
+            "question": "Buildings' fancade material",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Glass",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Concrete",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Plastering",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Bricks",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Stone",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Metal",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Wood",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Green Wall",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Other",
+                    "nextStep": 20
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 20,
+            "questionId": 19,
+            "question": "Buildings' fancade color",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Light",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "Medium",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "Dark",
+                    "nextStep": 21
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 21,
+            "questionId": 20,
+            "question": "Type of street paving material",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Asphalt",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Cement",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Stone",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Bricks",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Other",
+                    "nextStep": 22
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 22,
+            "questionId": 21,
+            "question": "Type of street paving color",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Light",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "Medium",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "Dark",
+                    "nextStep": 23
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 23,
+            "questionId": 22,
+            "question": "Type of side-walk paving material",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Asphalt",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Cement",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Stone",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Tiles",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Bricks",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Other material",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "No side-walk",
+                    "nextStep": 24
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 24,
+            "questionId": 23,
+            "question": "Type of side-walk paving color",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Light",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "Medium",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "Dark",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "No side-walk",
+                    "nextStep": 25
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 25,
+            "questionId": 24,
+            "question": "Squares/void spaces along the street (approx. % of total street length)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 26
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_30.png"
+                }
+            ]
+        },
+        {
+            "stepId": 26,
+            "questionId": 25,
+            "question": "Front yard of houses along the street (approx. % of total street area)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 27
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_31.png"
+                }
+            ]
+        },
+        {
+            "stepId": 27,
+            "questionId": 26,
+            "question": "Public greenery areas along the street (approx. % of total street area)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 28
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_32.png"
+                }
+            ]
+        },
+        {
+            "stepId": 28,
+            "questionId": 27,
+            "question": "Type of vegetation in green areas",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Lawns",
+                    "nextStep": 29
+                },
+                {
+                    "answer": "Schrubs",
+                    "nextStep": 29
+                },
+                {
+                    "answer": "Small canopy trees",
+                    "nextStep": 29
+                },
+                {
+                    "answer": "Big canopy trees",
+                    "nextStep": 29
+                },
+                {
+                    "answer": "No green areas",
+                    "nextStep": 29
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 29,
+            "questionId": 28,
+            "question": "Shade on the street",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Shade from canopy of trees, sparsely distributed",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "Shade from canopy of trees, close together",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "There is shade but from other sources",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "There is no shading",
+                    "nextStep": 30
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_33.png"
+                }
+            ]
+        },
+        {
+            "stepId": 30,
+            "questionId": 29,
+            "question": "Visibility of the sky (Sky View Factor - SVF, ranges from 0 to 1) when a location has buildings and trees, it will cause the SVF to decrease proprotionally",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Unrestricted",
+                    "nextStep": 31
+                },
+                {
+                    "answer": "Reduced",
+                    "nextStep": 31
+                },
+                {
+                    "answer": "Very limited",
+                    "nextStep": 31
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": [
+                {
+                    "imgPath": "Picture_34.png"
+                }
+            ]
+        },
+        {
+            "stepId": 31,
+            "questionId": 30,
+            "question": "Type of nearby water body",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "River",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "Canal",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "Pond",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "Lake",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "None",
+                    "nextStep": 32
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 32,
+            "questionId": 31,
+            "question": "Proximity to water body (minimum distance, in m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 33
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 33,
+            "questionId": 32,
+            "question": "Air temperature range [min,max] along the street, in °C",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 34
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 34,
+            "questionId": 33,
+            "question": "Air relative humidity (%) range [min,max]",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 35
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 35,
+            "questionId": 34,
+            "question": "Give your estimate of the Heat Index range [min,max], in the studied area/street and comment on the overall local thermal perception condition. Add the time of the observations and the location for the corresponding measuring points, and identify striking features in the proximal area.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 36
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 36,
+            "questionId": 35,
+            "question": "Based on the reported Heat index, comment on the overall local thermal perception condition. Very briefly: give location for the corresponding measuring points, and identify striking features in the proximal area.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 37
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 37,
+            "questionId": 36,
+            "question": "Based on the observation of the urban area, identify the local attributes that likely have stronger impact on heat stress in the area.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 38
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 38,
+            "questionId": 37,
+            "question": "In your view, what could be the nature of measures that could be implemented to benefit the area with respect to heat stress risk?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 39
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 39,
+            "questionId": 38,
+            "question": "(Optional) Upload 1 picture(jpeg/png) that illustrates your assignment:",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": -1,
+            "questionId": "",
+            "question": "",
+            "questionType": "end",
+            "answer": "",
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        }
+    ]
+}

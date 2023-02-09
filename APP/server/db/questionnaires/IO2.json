@@ -1,0 +1,4629 @@
+{
+    "name": "Water Flooding",
+    "type": "IO2",
+    "totalQ": 29,
+    "questions":[
+        {
+            "stepId": 0,
+            "questionId": "",
+            "question": "",
+            "questionType": "start",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 1
+                }
+            ],
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 1,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 2
+                }
+            ],
+			"skip": 0,
+            "note": {
+              "titles": [
+                "Water Flooding"
+              ],
+              "text": ["Flooding is a situation in which an area is covered with water, especially from rain. Water surrounds us everywhere, even if it is not obviously visible. We must remember that water-related risks are not only determined by the rivers, seas, and water reservoirs. Monitoring of parameters related to the water can be and should be performed in any location. "],
+              "steps": []
+            },
+            "noteButtonText": "START",
+            "images": []
+        },
+        {
+            "stepId": 2,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 3
+                }
+            ],
+			"skip": 0,
+            "note": {
+              "titles": [
+                "Measurements"
+              ],
+              "text": [
+                    "Measurements can be carried out in places such as: \n",
+                    "1. River (a place where water flows), \n",
+                    "2. Reservoir (a place where water collects), \n",
+                    "3. Green area (an area where water filters into the ground) and \n",
+                    "4. Urban area (an area where water flows over a built-up area). \n",
+                    "All measurements can be made independently, without the help of a teacher and without the use of specialized devices. These measurements make it possible to determine the parameters of water and its quantity. When choosing a place to take measurements, it is good to look around in the vicinity for such places."
+                ],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 3,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 5
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Beginning of Questionnaire"
+                  ],
+                  "text": ["You will answer some questions related with basic information about the basin and then you will choose if you want to make measurements."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 5,
+            "questionId": 1,
+            "question": "Season:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "spring",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "summer",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "autumn",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "winter",
+                    "nextStep": 6
+                }
+            ],
+			"skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 6,
+            "questionId": 2,
+            "question": "Time of the day:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "morning (8.00am- 11.00am)",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "noon (11.00am- 2.00pm)",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "afternoon (2.00pm- 4.00pm)",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "evening (4.00pm- 8.00pm)",
+                    "nextStep": 7
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 7,
+            "questionId": 3,
+            "question": "Air temperature (in °C):",
+            "questionType": "number",
+            "min": -100,
+            "max": 100,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 8
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 8,
+            "questionId": 4,
+            "question": "Air humidity:",
+            "questionType": "number",
+            "min": 0,
+            "max": 100,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 9
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 9,
+            "questionId": "",
+            "question": "GPS: What format of data do you wish to provide?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "number/text of coordinates",
+                    "nextStep": 10
+                },
+                {
+                    "answer": "photo of location",
+                    "nextStep": 11
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 10,
+            "questionId": 5,
+            "question": "GPS: number/text",
+            "questionType": "text",
+            "answer": [
+				{
+                    "answer": "",
+                    "nextStep": 12
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 11,
+            "questionId": 5,
+            "question": "GPS: photo of location",
+            "questionType": "file",
+            "answer": [
+				{
+                    "answer": "",
+                    "nextStep": 12
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 12,
+            "questionId": 6,
+            "question": "Is it raining or not?",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "yes",
+                    "nextStep": 13
+                },
+				{
+                    "answer": "no",
+                    "nextStep": 13
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 13,
+            "questionId": 7,
+            "question": "Type of basin:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "urban area",
+                    "nextStep": 14
+                },
+				{
+                    "answer": "open (green) area",
+                    "nextStep": 42
+                },
+				{
+                    "answer": "flowing water (river)",
+                    "nextStep": 67
+                },
+				{
+                    "answer": "standing water (reservoir)",
+                    "nextStep": 95
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 14,
+            "questionId": 7.1,
+            "question": "Type of urban area:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "village",
+                    "nextStep": 15
+                },
+				{
+                    "answer": "town, city",
+                    "nextStep": 15
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+		    "stepId": 15,
+            "questionId": 7.2,
+            "question": "Type of urban area:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "compact development",
+                    "nextStep": 16
+                },
+				{
+                    "answer": "low-density housing",
+                    "nextStep": 16
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 16,
+            "questionId": 8,
+            "question": "Precipitation: How many days ago was the last rainfall? ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 17
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 17,
+            "questionId": 9,
+            "question": "Precipitation: How long was this rainfall (in minutes)? ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 18
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 18,
+            "questionId": 10,
+            "question": "Precipitation: How would you describe this rain?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Drizzle",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Normal rain",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Heavy rain",
+                    "nextStep": 19
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 19,
+            "questionId": 11,
+            "question": "Precipitation: How often it rains in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 20
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 20,
+            "questionId": 12,
+            "question": "Infiltration: Do you notice puddles after the rain?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 21
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 21,
+            "questionId": 13,
+            "question": "Infiltration: Is the ground around you dry now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 22
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 22,
+            "questionId": 14,
+            "question": "Infiltration: Do you have a lot of impervious area (buildings, parking, roads, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 23
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 23,
+            "questionId": 15,
+            "question": "Infiltration: Do you have a lot of green area (grass, wood, park, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 24
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 24,
+            "questionId": 16,
+            "question": "Infiltration: Do you have a lot of water (rivers, reservoirs, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 25
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 25,
+            "questionId": 17,
+            "question": "Sewage System: Do you have sewage wells in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 28
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 28
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 26
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 26,
+            "questionId": 17.1,
+            "question": "Sewage System: Are the wells usually clean?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 27
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 27,
+            "questionId": 17.2,
+            "question": "Sewage System: Are the wells clean now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 28
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 28
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 28
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 28,
+            "questionId": 18,
+            "question": "Surface Runoff: How often do you notice flooding in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 29
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 29
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 29
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 29,
+            "questionId": 19,
+            "question": "Surface Runoff: How often do you see the surface runoff or water flowing down the street?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 30
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 30,
+            "questionId": 20,
+            "question": "Surface Runoff: How long after the rain started can you see the surface runoff in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Rain and surface runoff end at the same time",
+                    "nextStep": 31
+                },
+                {
+                    "answer": "An hour",
+                    "nextStep": 31
+                },
+                {
+                    "answer": "A few hours",
+                    "nextStep": 31
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 31,
+            "questionId": 21,
+            "question": "Surface Runoff: How long after the rain is over can you see the surface runoff in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Rain and surface runoff end at the same time",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "An hour",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "A few hours",
+                    "nextStep": 32
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 32,
+            "questionId": 22,
+            "question": "Basin Description: Describe your area",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Urbanized",
+                    "nextStep": 33
+                },
+                {
+                    "answer": "Natural",
+                    "nextStep": 33
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 33,
+            "questionId": 23,
+            "question": "Basin Description: Describe more precisely what do you see around you (for natural basins: what kind of wood, agricultural etc.; for urbanized basins: single-family houses, skyscrapers, a small park, etc.)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 34
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 34,
+            "questionId": 24,
+            "question": "Basin Description: Are there any reservoirs or rivers? How close?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 35
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 35,
+            "questionId": 25,
+            "question": "Basin Description: If possible, attach photos",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 36
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 36,
+            "questionId": 26,
+            "question": "Nature-based Solution: How do you understand the natural retention of the basin?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 37
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 37,
+            "questionId": 27,
+            "question": "Nature-based Solution: Do you have any places like this around you",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes",
+                    "nextStep": 38
+                },
+                {
+                    "answer": "No",
+                    "nextStep": 39
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 38,
+            "questionId": 27.1,
+            "question": "Nature-based Solution: If yes, take a photo and attach it.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 39
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 39,
+            "questionId": 28,
+            "question": "Nature-based Solution: Do you see the places where we could create natural retention? How (please describe your idea) ?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 40
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 40,
+            "questionId": 29,
+            "question": "Nature-based Solution: Is more than one NBS in our location?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes",
+                    "nextStep": 41
+                },
+                {
+                    "answer": "No",
+                    "nextStep": 41
+                },
+                {
+                    "answer": "I don`t know yet, ask me later.",
+                    "nextStep": 41
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 41,
+            "questionId": "",
+            "question": "If it is currently raining, would you like to make measurements now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes, I want to continue.",
+                    "nextStep": 123
+                },
+                {
+                    "answer": "No, I want to submit my answers and exit the app.",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+		    "stepId": 42,
+            "questionId": 7.1,
+            "question": "Type of open (green) area:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "meadow",
+                    "nextStep": 43
+                },
+				{
+                    "answer": "park",
+                    "nextStep": 43
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+		    "stepId": 43,
+            "questionId": 7.2,
+            "question": "Type of open (green) area:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "natural",
+                    "nextStep": 44
+                },
+				{
+                    "answer": "formed",
+                    "nextStep": 44
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 44,
+            "questionId": 8,
+            "question": "Precipitation: How many days ago was the last rainfall? ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 45
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 45,
+            "questionId": 9,
+            "question": "Precipitation: How long was this rainfall (in minutes)? ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 46
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 46,
+            "questionId": 10,
+            "question": "Precipitation: How would you describe this rain?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Drizzle",
+                    "nextStep": 47
+                },
+                {
+                    "answer": "Normal rain",
+                    "nextStep": 47
+                },
+                {
+                    "answer": "Heavy rain",
+                    "nextStep": 47
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 47,
+            "questionId": 11,
+            "question": "Precipitation: How often it rains in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 48
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 48
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 48
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 48,
+            "questionId": 12,
+            "question": "Infiltration: Do you notice puddles after the rain?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 49
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 49
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 49
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 49,
+            "questionId": 13,
+            "question": "Infiltration: Is the ground around you dry now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 50
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 50
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 50
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 50,
+            "questionId": 14,
+            "question": "Infiltration: Do you have a lot of impervious area (buildings, parking, roads, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 51
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 51
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 51
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 51,
+            "questionId": 15,
+            "question": "Infiltration: Do you have a lot of green area (grass, wood, park, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 52
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 52
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 52
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 52,
+            "questionId": 16,
+            "question": "Infiltration: Do you have a lot of water (rivers, reservoirs, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 53
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 53
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 53
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 53,
+            "questionId": 17,
+            "question": "Surface Runoff: How often do you notice flooding in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 54
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 54
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 54
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 54,
+            "questionId": 18,
+            "question": "Surface Runoff: How often do you see the surface runoff or water flowing down the street?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 55
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 55
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 55
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 55,
+            "questionId": 19,
+            "question": "Surface Runoff: How long after the rain started can you see the surface runoff in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Rain and surface runoff end at the same time",
+                    "nextStep": 56
+                },
+                {
+                    "answer": "An hour",
+                    "nextStep": 56
+                },
+                {
+                    "answer": "A few hours",
+                    "nextStep": 56
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 56,
+            "questionId": 20,
+            "question": "Surface Runoff: How long after the rain is over can you see the surface runoff in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Rain and surface runoff end at the same time",
+                    "nextStep": 57
+                },
+                {
+                    "answer": "An hour",
+                    "nextStep": 57
+                },
+                {
+                    "answer": "A few hours",
+                    "nextStep": 57
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 57,
+            "questionId": 21,
+            "question": "Basin Description: Describe your area",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Urbanized",
+                    "nextStep": 58
+                },
+                {
+                    "answer": "Natural",
+                    "nextStep": 58
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 58,
+            "questionId": 22,
+            "question": "Basin Description: Describe more precisely what do you see around you (for natural basins: what kind of wood, agricultural etc.; for urbanized basins: single-family houses, skyscrapers, a small park, etc.)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 59
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 59,
+            "questionId": 23,
+            "question": "Basin Description: Are there any reservoirs or rivers? How close?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 60
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 60,
+            "questionId": 24,
+            "question": "Basin Description: If possible, attach photos",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 61
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 61,
+            "questionId": 25,
+            "question": "Nature-based Solution: How do you understand the natural retention of the basin?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 62
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 62,
+            "questionId": 26,
+            "question": "Nature-based Solution: Do you have any places like this around you",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes",
+                    "nextStep": 63
+                },
+                {
+                    "answer": "No",
+                    "nextStep": 64
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 63,
+            "questionId": 26.1,
+            "question": "Nature-based Solution: If yes, take a photo and attach it.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 64
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 64,
+            "questionId": 27,
+            "question": "Nature-based Solution: Do you see the places where we could create natural retention? How (please describe your idea) ?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 65
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 65,
+            "questionId": 28,
+            "question": "Nature-based Solution: Is more than one NBS in our location?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes",
+                    "nextStep": 66
+                },
+                {
+                    "answer": "No",
+                    "nextStep": 66
+                },
+                {
+                    "answer": "I don`t know yet, ask me later.",
+                    "nextStep": 66
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 66,
+            "questionId": "",
+            "question": "If it is currently raining, would you like to make measurements now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes, I want to continue.",
+                    "nextStep": 149
+                },
+                {
+                    "answer": "No, I want to submit my answers and exit the app.",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+		    "stepId": 67,
+            "questionId": 7.1,
+            "question": "Type of flowing water:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "natural",
+                    "nextStep": 68
+                },
+				{
+                    "answer": "artificial",
+                    "nextStep": 68
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+		    "stepId": 68,
+            "questionId": 7.2,
+            "question": "Type of flowing water:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "stream",
+                    "nextStep": 69
+                },
+				{
+                    "answer": "river/channel",
+                    "nextStep": 69
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 69,
+            "questionId": 8,
+            "question": "Precipitation: How many days ago was the last rainfall? ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 70
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 70,
+            "questionId": 9,
+            "question": "Precipitation: How long was this rainfall (in minutes)? ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 71
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 71,
+            "questionId": 10,
+            "question": "Precipitation: How would you describe this rain?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Drizzle",
+                    "nextStep": 72
+                },
+                {
+                    "answer": "Normal rain",
+                    "nextStep": 72
+                },
+                {
+                    "answer": "Heavy rain",
+                    "nextStep": 72
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 72,
+            "questionId": 11,
+            "question": "Precipitation: How often it rains in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 73
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 73
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 73
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 73,
+            "questionId": 12,
+            "question": "Infiltration: Do you notice puddles after the rain?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 74
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 74
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 74
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 74,
+            "questionId": 13,
+            "question": "Infiltration: Is the ground around you dry now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 75
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 75
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 75
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 75,
+            "questionId": 14,
+            "question": "Infiltration: Do you have a lot of impervious area (buildings, parking, roads, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 76
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 76
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 76
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 76,
+            "questionId": 15,
+            "question": "Infiltration: Do you have a lot of green area (grass, wood, park, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 77
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 77
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 77
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 77,
+            "questionId": 16,
+            "question": "Infiltration: Do you have a lot of water (rivers, reservoirs, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 78
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 78
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 78
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 78,
+            "questionId": 17,
+            "question": "Water level: How is the water level?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Lower",
+                    "nextStep": 79
+                },
+                {
+                    "answer": "Normal",
+                    "nextStep": 79
+                },
+                {
+                    "answer": "Higher",
+                    "nextStep": 79
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 79,
+            "questionId": 18,
+            "question": "Water level: How often the water level changes?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 80
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 80
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 80
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 80,
+            "questionId": 19,
+            "question": "Water level: Are there any measurement devices?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No devices",
+                    "nextStep": 81
+                },
+                {
+                    "answer": "In the river",
+                    "nextStep": 81
+                },
+                {
+                    "answer": "Around the river",
+                    "nextStep": 81
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 81,
+            "questionId": 20,
+            "question": "Surface Runoff: How often do you notice flooding in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 82
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 82
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 82
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 82,
+            "questionId": 21,
+            "question": "Surface Runoff: How often do you see the surface runoff or water flowing down the street?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 83
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 83
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 83
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 83,
+            "questionId": 22,
+            "question": "Surface Runoff: How long after the rain started can you see the surface runoff in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Rain and surface runoff end at the same time",
+                    "nextStep": 84
+                },
+                {
+                    "answer": "An hour",
+                    "nextStep": 84
+                },
+                {
+                    "answer": "A few hours",
+                    "nextStep": 84
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 84,
+            "questionId": 23,
+            "question": "Surface Runoff: How long after the rain is over can you see the surface runoff in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Rain and surface runoff end at the same time",
+                    "nextStep": 85
+                },
+                {
+                    "answer": "An hour",
+                    "nextStep": 85
+                },
+                {
+                    "answer": "A few hours",
+                    "nextStep": 85
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 85,
+            "questionId": 24,
+            "question": "Basin Description: Describe your area",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Urbanized",
+                    "nextStep": 86
+                },
+                {
+                    "answer": "Natural",
+                    "nextStep": 86
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 86,
+            "questionId": 25,
+            "question": "Basin Description: Describe more precisely what do you see around you (for natural basins: what kind of wood, agricultural etc.; for urbanized basins: single-family houses, skyscrapers, a small park, etc.)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 87
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 87,
+            "questionId": 26,
+            "question": "Basin Description: Are there any reservoirs or rivers? How close?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 88
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 88,
+            "questionId": 27,
+            "question": "Basin Description: If possible, attach photos",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 89
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 89,
+            "questionId": 28,
+            "question": "Nature-based Solution: How do you understand the natural retention of the basin?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 90
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 90,
+            "questionId": 29,
+            "question": "Nature-based Solution: Do you have any places like this around you",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes",
+                    "nextStep": 91
+                },
+                {
+                    "answer": "No",
+                    "nextStep": 92
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 91,
+            "questionId": 29.1,
+            "question": "Nature-based Solution: If yes, take a photo and attach it.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 92
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 92,
+            "questionId": 30,
+            "question": "Nature-based Solution: Do you see the places where we could create natural retention? How (please describe your idea) ?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 93
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 93,
+            "questionId": 31,
+            "question": "Nature-based Solution: Is more than one NBS in our location?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes",
+                    "nextStep": 94
+                },
+                {
+                    "answer": "No",
+                    "nextStep": 94
+                },
+                {
+                    "answer": "I don`t know yet, ask me later.",
+                    "nextStep": 94
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 94,
+            "questionId": "",
+            "question": "If it is currently raining, would you like to make measurements now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes, I want to continue.",
+                    "nextStep": 160
+                },
+                {
+                    "answer": "No, I want to submit my answers and exit the app.",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+		    "stepId": 95,
+            "questionId": 7.1,
+            "question": "Type of standing water:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "natural",
+                    "nextStep": 96
+                },
+				{
+                    "answer": "artificial",
+                    "nextStep": 96
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+		    "stepId": 96,
+            "questionId": 7.2,
+            "question": "Type of standing water (reservoir):",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "pond",
+                    "nextStep": 97
+                },
+				{
+                    "answer": "lake",
+                    "nextStep": 97
+                },
+				{
+                    "answer": "sea/reservoir",
+                    "nextStep": 97
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 97,
+            "questionId": 8,
+            "question": "Precipitation: How many days ago was the last rainfall? ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 98
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 98,
+            "questionId": 9,
+            "question": "Precipitation: How long was this rainfall (in minutes)? ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 99
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 99,
+            "questionId": 10,
+            "question": "Precipitation: How would you describe this rain?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Drizzle",
+                    "nextStep": 100
+                },
+                {
+                    "answer": "Normal rain",
+                    "nextStep": 100
+                },
+                {
+                    "answer": "Heavy rain",
+                    "nextStep": 100
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 100,
+            "questionId": 11,
+            "question": "Precipitation: How often it rains in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 101
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 101
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 101
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 101,
+            "questionId": 12,
+            "question": "Infiltration: Do you notice puddles after the rain?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 102
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 102
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 102
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 102,
+            "questionId": 13,
+            "question": "Infiltration: Is the ground around you dry now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 103
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 103
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 103
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 103,
+            "questionId": 14,
+            "question": "Infiltration: Do you have a lot of impervious area (buildings, parking, roads, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 104
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 104
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 104
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 104,
+            "questionId": 15,
+            "question": "Infiltration: Do you have a lot of green area (grass, wood, park, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 105
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 105
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 105
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 105,
+            "questionId": 16,
+            "question": "Infiltration: Do you have a lot of water (rivers, reservoirs, etc.) around you?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 106
+                },
+                {
+                    "answer": "I don't know",
+                    "nextStep": 106
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 106
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 106,
+            "questionId": 17,
+            "question": "Water level: How is the water level?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Lower",
+                    "nextStep": 107
+                },
+                {
+                    "answer": "Normal",
+                    "nextStep": 107
+                },
+                {
+                    "answer": "Higher",
+                    "nextStep": 107
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 107,
+            "questionId": 18,
+            "question": "Water level: How often the water level changes?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 108
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 108
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 108
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 108,
+            "questionId": 19,
+            "question": "Water level: Are there any measurement devices?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No devices",
+                    "nextStep": 109
+                },
+                {
+                    "answer": "In the reservoir",
+                    "nextStep": 109
+                },
+                {
+                    "answer": "Around the reservoir",
+                    "nextStep": 109
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 109,
+            "questionId": 20,
+            "question": "Surface Runoff: How often do you notice flooding in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 110
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 110
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 110
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 110,
+            "questionId": 21,
+            "question": "Surface Runoff: How often do you see the surface runoff or water flowing down the street?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Almost never",
+                    "nextStep": 111
+                },
+                {
+                    "answer": "Several times per month",
+                    "nextStep": 111
+                },
+                {
+                    "answer": "Several times per week",
+                    "nextStep": 111
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 111,
+            "questionId": 22,
+            "question": "Surface Runoff: How long after the rain started can you see the surface runoff in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Rain and surface runoff end at the same time",
+                    "nextStep": 112
+                },
+                {
+                    "answer": "An hour",
+                    "nextStep": 112
+                },
+                {
+                    "answer": "A few hours",
+                    "nextStep": 112
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 112,
+            "questionId": 23,
+            "question": "Surface Runoff: How long after the rain is over can you see the surface runoff in your area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Rain and surface runoff end at the same time",
+                    "nextStep": 113
+                },
+                {
+                    "answer": "An hour",
+                    "nextStep": 113
+                },
+                {
+                    "answer": "A few hours",
+                    "nextStep": 113
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 113,
+            "questionId": 24,
+            "question": "Basin Description: Describe your area",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Urbanized",
+                    "nextStep": 114
+                },
+                {
+                    "answer": "Natural",
+                    "nextStep": 114
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 114,
+            "questionId": 25,
+            "question": "Basin Description: Describe more precisely what do you see around you (for natural basins: what kind of wood, agricultural etc.; for urbanized basins: single-family houses, skyscrapers, a small park, etc.)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 115
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 115,
+            "questionId": 26,
+            "question": "Basin Description: Are there any reservoirs or rivers? How close?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 116
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 116,
+            "questionId": 27,
+            "question": "Basin Description: If possible, attach photos",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 117
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 117,
+            "questionId": 28,
+            "question": "Nature-based Solution: How do you understand the natural retention of the basin?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 118
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 118,
+            "questionId": 29,
+            "question": "Nature-based Solution: Do you have any places like this around you",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes",
+                    "nextStep": 119
+                },
+                {
+                    "answer": "No",
+                    "nextStep": 120
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 119,
+            "questionId": 29.1,
+            "question": "Nature-based Solution: If yes, take a photo and attach it.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 120
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 120,
+            "questionId": 30,
+            "question": "Nature-based Solution: Do you see the places where we could create natural retention? How (please describe your idea) ?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 121
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 121,
+            "questionId": 31,
+            "question": "Nature-based Solution: Is more than one NBS in our location?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes",
+                    "nextStep": 122
+                },
+                {
+                    "answer": "No",
+                    "nextStep": 122
+                },
+                {
+                    "answer": "I don`t know yet, ask me later.",
+                    "nextStep": 122
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 122,
+            "questionId": "",
+            "question": "If it is currently raining, would you like to make measurements now?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Yes, I want to continue.",
+                    "nextStep": 192
+                },
+                {
+                    "answer": "No, I want to submit my answers and exit the app.",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 123,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 124
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Measurements Section"
+                  ],
+                  "text": ["You chose to make measurements for an urban area!"],
+                  "steps": []
+            },
+            "noteButtonText": "START TO MEASURE",
+            "images": []
+        },
+        {
+            "stepId": 124,
+            "questionId": "",
+            "question": "",
+            "questionType": "safety",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 125
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Safety Precautions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Please dress appropriately to the weather conditions. ",
+                "2. Dress properly during a laboratory activity. Long hair, dangling jewelry, and loose or baggy clothing are a hazard in the laboratory. Long hair must be tied back, and dangling jewelry and baggy clothing must be secured. No high heels allowed on  laboratory days. No special clothes nor footwear is mandatory during the laboratory tests, however there is a risk of clothing damage or wetting, so the student will decide if want to use special clothing, but he or she is responsible for it.",
+                "3. Taking measurement during a storm is forbidden.",
+                "4. Do not complete the questionnaire in places where special care should be taken (road, crossing the track, etc.)",
+                "5. Make sure that you understand a measurement procedure. If not, ask your teacher before proceeding with the activity.",
+                "6. Perform only those experiments authorized by your teacher.",
+                "7. Observe good housekeeping practices. Work areas should be kept clean and tidy all the time.",
+                "8. Wear the visibility (reflective) vest when measuring on the road.",
+                "9. Do not enter places that are not allowed.",
+                "10. Do not move away from the group without informing the teacher.",
+                "11. Measurement should be made in a group (minimum 2 people) – don’t approach rivers and reservoirs alone.",
+                "12. After the experiment, return all equipment to the instructor and keep your work area clean.",
+                "13. Notify the teacher immediately of any unsafe conditions you observe. Report any accident (spill, breakage, etc.) or injury (cut, burn, etc.) to the teacher immediately, no matter how trivial it seems. If you or your laboratory partner is hurt, immediately (and loudly) yell out the teacher's name to get the teacher’s attention."
+              ]
+            },
+            "noteButtonText": "GO TO MEASUREMENT INFORMATION",
+            "images": []
+        },
+        {
+            "stepId": 125,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 126
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Measurement Types"
+                  ],
+                  "text": [
+                        "There are 2 types of measurements: \n",
+                        "1. Simple: measurements that can be made independently, without the help of a teacher and without the use of specialized devices. \n", 
+                        "2. Difficult: measurements that should be done by adults and may require specialized equipment. \n"
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": [
+                {
+                    "imgPath": "Picture_20.png"
+                  },
+                  {
+                    "imgPath": "Picture_21.png"
+                  }
+            ]
+        },
+        {
+            "stepId": 126,
+            "questionId": "",
+            "question": "Choose your type of measurements:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Simple measurements",
+                    "nextStep": 127
+                },
+                {
+                    "answer": "Difficult measurements",
+                    "nextStep": 153
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 127,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 128
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Precipitation"
+                  ],
+                  "text": [
+                        "A rain gauge can be any container in which we can collect water: a bowl, a jar, a bottle with a cut-off neck (any shape of the inlet). The volume of water that will be collected in the container and the time it took for this water to collect should be measured. \n", 
+                        "The measurement can be performed in two variants measurement of: the daily sum of precipitation, and the instantaneous intensity of the rainfall episode."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 128,
+            "questionId": 1,
+            "question": "Precipitation intensity: During the rain, at the same time, set the container to catch rainwater and start the timer. Measure the time remaining until the rainfall ends/reduces its strenght or until the container is completely full. Then measure the volume of the collected water. (in dm³/min)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 129
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 129,
+            "questionId": 2,
+            "question": "Daily sum of precipitation: The rain gauge should be put in a safe place that allows it to be left for several days or even months. Every day at the same time the volume of collected water should be measured (in dm³/min). The rain gauge should be emptied and put back in the same place after the measurement. If you notice any debris, remove it immediately.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 130
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 130,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 131
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Surface Runoff"
+                  ],
+                  "text": ["The surface runoff can be measured in two variants - during / just after the rain or in the dry period."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 131,
+            "questionId": 3.1,
+            "question": "Measurement in the wet period: locate a place in the area that turns into a periodic stream after rain (e.g street or pavement). \n 1.Take a photo and upload it.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 132
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 132,
+            "questionId": 3.2,
+            "question": "Measurement in the wet period: 2.Now measure the water depth and the width of the stream (in m). \n 3.Calculate the cross-sectional area and write it in the input.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 133
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 133,
+            "questionId": 4.1,
+            "question": "Measurement in the dry period: locate the places where surface run-off will potentially be observed. \n 1.Take a picture of the streets (or other places) where water flows after heavy rain and upload it.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 134
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 134,
+            "questionId": 4.2,
+            "question": "Measurement in the dry period: 2.Now dimension the places \n  3.Try to determine the maximum capacity and write it in the input. [e.g. in the case of a street, check the maximum cross-section(street width and height of the curb) that water can flow.]",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 135
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 135,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 136
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Velocity - Surface Runoff"
+                  ],
+                  "text": [],
+                  "steps": [
+                      "1. Find a straight section of the street - a place where surface runoff is pronounced, mark the beginning and the end, measure the length (L [in m])",
+                      "2. Prepare a float: something that will float on the water surface, it can be a piece of wood, a paper ship, etc.",
+                      "3. Throw in the float at least one meter before the beginning of the marked section, measure the time needed for the float to swim between the marked points (t [in s])"
+                  ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 136,
+            "questionId": 5.1,
+            "question": "Velocity - Surface Runoff: Calculate the surface speed v = L/t [in m/s]",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 137
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 137,
+            "questionId": 5.2,
+            "question": "Velocity - Surface Runoff: Take a photo of the surface runoff and upload it.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 138
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 138,
+            "questionId": 5.3,
+            "question": "Velocity - Surface Runoff: If you have measured both surface runoff velocity and surface runoff cross-section area, you can calculate the discharge according to the continuity equation: Q=A*V, with Q – discharge [m³/s] \n V – flow velocity [m/s] \n A – cross-section area [m²].",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 139
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 139,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 140
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Retention"
+                  ],
+                  "text": ["Retention is a place where water can accumulate rather than go directly to the rainwater drainage system. Small retention can take the form of depression (water will collect and evaporate there), a green area (rainwater will settle on plants, infiltrate into the ground), rain gardens, green roofs, etc."],
+                  "steps": [
+                      "1. Find a place in your area that will allow you to locally keep the water or restore it to its natural circulation.",
+                      "2. Prepare a float: something that will float on the water surface, it can be a piece of wood, a paper ship, etc.",
+                      "3. Throw in the float at least one meter before the beginning of the marked section, measure the time needed for the float to swim between the marked points (t [in s])"
+                  ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 140,
+            "questionId": 6.1,
+            "question": "Retention: Take a picture of the place you found and upload it.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 141
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 141,
+            "questionId": 6.2,
+            "question": "Retention: Describe how the water is stored.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 142
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 142,
+            "questionId": 6.3,
+            "question": "Retention: Estimate how much water (water level in m) can be collected in the area of interest - measurement can be made with any device / item that you can later dimension.",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 143
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 143,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 144
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Infiltration"
+                  ],
+                  "text": [],
+                  "steps": [
+                      "1. Prepare a cylinder-shaped container (bucket, plastic bottle, etc.)",
+                      "2. Cut off the bases, and if this is impossible, make a hole as large as possible in both bases.",
+                      "3. Measure the volume of the cylinder and the area of the base / hole in the base.",
+                      "4. Prepare several portions of water, about 1 liter of water each - water may be more or less depending on the capacity of the prepared device.",
+                      "5. Prepare a stopwatch.",
+                      "6. Find several different types of land cover in your area (pavement, lawn, bare earth, asphalt), these will be the measuring points."
+                  ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 144,
+            "questionId": 7,
+            "question": "Infiltration: At each point, place an empty measuring device. At the same time, pour the prepared portion of water and start the stopwatch, measure the time needed for the whole poured water to infiltrate (in s).",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 145
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 145,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 146
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Air Temperature"
+                  ],
+                  "text": ["An outdoor thermometer should be used to measure the temperature. \n Measurements should be performed at the beginning and at the end of field research. In the case of measurements are longer than 2 hours or noticeable temperature changes during the exercise will be noticed, the temperature should be measured several times - the frequency of measurements should be selected to capture the dynamics of temperature changes. The air temperature is measured in the same way as checking the temperature on a window thermometer. During the first measurement, wait a few minutes for the value to stabilize."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 146,
+            "questionId": 8,
+            "question": "Air Temperature: Write the measured air temperature (in °C). If you have multiple measurements, separate them with a comma (e.g 15,18,23)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 147
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 147,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 148
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water Temperature"
+                  ],
+                  "text": ["Water temperature is measured in a similar way to air temperature measurement. Approximately 1 minute must elapse between the insertion of the thermometer in the water and the value reading (liquid inertia in the thermometer). Read the temperature carefully, do not remove the thermometer from the water while taking the measurement."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 148,
+            "questionId": 9,
+            "question": "Water Temperature: Write the measured water temperature (in °C).",
+            "questionType": "number",
+            "min": -100,
+            "max": 100,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 149,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 150
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Measurements Section"
+                  ],
+                  "text": ["You chose to make measurements for an open green area!"],
+                  "steps": []
+            },
+            "noteButtonText": "START TO MEASURE",
+            "images": []
+        },
+        {
+            "stepId": 150,
+            "questionId": "",
+            "question": "",
+            "questionType": "safety",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 151
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Safety Precautions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Please dress appropriately to the weather conditions. ",
+                "2. Dress properly during a laboratory activity. Long hair, dangling jewelry, and loose or baggy clothing are a hazard in the laboratory. Long hair must be tied back, and dangling jewelry and baggy clothing must be secured. No high heels allowed on  laboratory days. No special clothes nor footwear is mandatory during the laboratory tests, however there is a risk of clothing damage or wetting, so the student will decide if want to use special clothing, but he or she is responsible for it.",
+                "3. Taking measurement during a storm is forbidden.",
+                "4. Do not complete the questionnaire in places where special care should be taken (road, crossing the track, etc.)",
+                "5. Make sure that you understand a measurement procedure. If not, ask your teacher before proceeding with the activity.",
+                "6. Perform only those experiments authorized by your teacher.",
+                "7. Observe good housekeeping practices. Work areas should be kept clean and tidy all the time.",
+                "8. Wear the visibility (reflective) vest when measuring on the road.",
+                "9. Do not enter places that are not allowed.",
+                "10. Do not move away from the group without informing the teacher.",
+                "11. Measurement should be made in a group (minimum 2 people) – don’t approach rivers and reservoirs alone.",
+                "12. After the experiment, return all equipment to the instructor and keep your work area clean.",
+                "13. Notify the teacher immediately of any unsafe conditions you observe. Report any accident (spill, breakage, etc.) or injury (cut, burn, etc.) to the teacher immediately, no matter how trivial it seems. If you or your laboratory partner is hurt, immediately (and loudly) yell out the teacher's name to get the teacher’s attention."
+              ]
+            },
+            "noteButtonText": "GO TO MEASUREMENT INFORMATION",
+            "images": []
+        },
+        {
+            "stepId": 151,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 152
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Measurement Types"
+                  ],
+                  "text": [
+                        "There are 2 types of measurements: \n",
+                        "1. Simple: measurements that can be made independently, without the help of a teacher and without the use of specialized devices. \n", 
+                        "2. Difficult: measurements that should be done by adults and may require specialized equipment. \n"
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": [
+                {
+                    "imgPath": "Picture_20.png"
+                  },
+                  {
+                    "imgPath": "Picture_21.png"
+                  }
+            ]
+        },
+        {
+            "stepId": 152,
+            "questionId": "",
+            "question": "Choose your type of measurements:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Simple measurements",
+                    "nextStep": 127
+                },
+                {
+                    "answer": "Difficult measurements",
+                    "nextStep": 127
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 153,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 154
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Discharge - Sewage System"
+                  ],
+                  "text": [],
+                  "steps": [
+                      "1. Measurement of the flow rate in the rainwater sewage system must be supervised (teacher, technician, or employee of the municipal company), never do this measurement alone!",
+                      "2. Be especially careful during the measurement, due to many unpredictable factors (e.g. heavy water pollution, strong current, sharp objects in the sewage).",
+                      "3. For safety reasons, the measurements should take place in collectors to which there is free access from the outside (e.g. inflow to the tank, transition from closed channels to open channels, etc.).",
+                      "4. Measurements in collectors of combined sewage systems should be performed carefully, with gloves, trying to limit contact with water to a minimum."
+                  ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 154,
+            "questionId": 10,
+            "question": "Sewage System: Measurements of the flow rate in the rainwater sewage system (in dm³/s). If you have multiple measurements, separate them with a comma (e.g 15.02,18,23.44)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 155
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 155,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 156
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water level - Sewage System"
+                  ],
+                  "text": [
+                    "The first step of the measurement is the visual inspection and description of the cross-section. \n",
+                    "The water level in the analyzed cross-section should be measured. The measurement should be performed in such a way that it will be possible to draw a line representing the water table level on the drawing of the channel cross-section. \n",
+                    "The method of measuring the water level must be appropriate to the technical possibilities given by the characteristics of the measurements location. \n",
+                    "The measurement can be made with a level, leveling rod, any rod or pole, tape measure, ruler, piece of wood, etc. All methods are allowed, but remember that the priority is the safety of the performed measurement."
+                ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 156,
+            "questionId": 11.1,
+            "question": "Water Level: Record the following: 1. type of rainwater collector (e.g a pipe), 2. type of medium (e.g rainwater drainage), 3. condition of the collector at the measurement location (observations regarding the fragments before and after the cross-section), 4. the state of flowing water (color, suspended solids, sediment, flow, etc.), 5. the shape of the collector and the material it is made of, 6. characteristic dimensions (dimensions must enable drawing with the collector cross-section in the place where the measurement is performed), 7.collector slope (if possible).",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 157
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 157,
+            "questionId": 11.2,
+            "question": "Water Level: Measurement of the water level in the analyzed cross-section. (in m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 158
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 158,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 159
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Rainwater Velocity - Sewage System"
+                  ],
+                  "text": [],
+                  "steps": [
+                      "1. Make a sketch of the collector and measure the current water level. The flow meter used for the measurement must be suitable for use in polluted water.",
+                      "2. Designate the hydrometric vertical points and define the depths of water level and the depths at which the measurements will be made. The number and distribution of measuring points depend on the characteristics of the observed flow (spatial variability) and the dimensions of the collector.",
+                      "3. Mark the measurement points on the sketch. Before starting the measurement, consult the location of the measurement points with the teacher.",
+                      "4. At each point, measure the local velocity three times. The measurement is performer following the instructions attached to the flow meter."
+                  ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 159,
+            "questionId": 10,
+            "question": "Rainwater Velocity: Calculate the rainwater velocity (in m/s).",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 127
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 160,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 161
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Measurements Section"
+                  ],
+                  "text": ["You chose to make measurements for a flowing water (river) area!"],
+                  "steps": []
+            },
+            "noteButtonText": "START TO MEASURE",
+            "images": []
+        },
+        {
+            "stepId": 161,
+            "questionId": "",
+            "question": "",
+            "questionType": "safety",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 162
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Safety Precautions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Please dress appropriately to the weather conditions. ",
+                "2. Dress properly during a laboratory activity. Long hair, dangling jewelry, and loose or baggy clothing are a hazard in the laboratory. Long hair must be tied back, and dangling jewelry and baggy clothing must be secured. No high heels allowed on  laboratory days. No special clothes nor footwear is mandatory during the laboratory tests, however there is a risk of clothing damage or wetting, so the student will decide if want to use special clothing, but he or she is responsible for it.",
+                "3. Taking measurement during a storm is forbidden.",
+                "4. Do not complete the questionnaire in places where special care should be taken (road, crossing the track, etc.)",
+                "5. Make sure that you understand a measurement procedure. If not, ask your teacher before proceeding with the activity.",
+                "6. Perform only those experiments authorized by your teacher.",
+                "7. Observe good housekeeping practices. Work areas should be kept clean and tidy all the time.",
+                "8. Wear the visibility (reflective) vest when measuring on the road.",
+                "9. Do not enter places that are not allowed.",
+                "10. Do not move away from the group without informing the teacher.",
+                "11. Measurement should be made in a group (minimum 2 people) – don’t approach rivers and reservoirs alone.",
+                "12. After the experiment, return all equipment to the instructor and keep your work area clean.",
+                "13. Notify the teacher immediately of any unsafe conditions you observe. Report any accident (spill, breakage, etc.) or injury (cut, burn, etc.) to the teacher immediately, no matter how trivial it seems. If you or your laboratory partner is hurt, immediately (and loudly) yell out the teacher's name to get the teacher’s attention."
+              ]
+            },
+            "noteButtonText": "GO TO MEASUREMENT INFORMATION",
+            "images": []
+        },
+        {
+            "stepId": 162,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 163
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Measurement Types"
+                  ],
+                  "text": [
+                        "There are 2 types of measurements: \n",
+                        "1. Simple: measurements that can be made independently, without the help of a teacher and without the use of specialized devices. \n", 
+                        "2. Difficult: measurements that should be done by adults and may require specialized equipment. \n"
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": [
+                {
+                    "imgPath": "Picture_20.png"
+                  },
+                  {
+                    "imgPath": "Picture_21.png"
+                  }
+            ]
+        },
+        {
+            "stepId": 163,
+            "questionId": "",
+            "question": "Choose your type of measurements:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Simple measurements",
+                    "nextStep": 164
+                },
+                {
+                    "answer": "Difficult measurements",
+                    "nextStep": 175
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 164,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 165
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Precipitation"
+                  ],
+                  "text": [
+                        "A rain gauge can be any container in which we can collect water: a bowl, a jar, a bottle with a cut-off neck (any shape of the inlet). The volume of water that will be collected in the container and the time it took for this water to collect should be measured. \n", 
+                        "The measurement can be performed in two variants measurement of: the daily sum of precipitation, and the instantaneous intensity of the rainfall episode."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 165,
+            "questionId": 1,
+            "question": "Precipitation intensity: During the rain, at the same time, set the container to catch rainwater and start the timer. Measure the time remaining until the rainfall ends/reduces its strenght or until the container is completely full. Then measure the volume of the collected water. (in dm³/min)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 166
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 166,
+            "questionId": 2,
+            "question": "Daily sum of precipitation: The rain gauge should be put in a safe place that allows it to be left for several days or even months. Every day at the same time the volume of collected water should be measured (in dm³/min). The rain gauge should be emptied and put back in the same place after the measurement. If you notice any debris, remove it immediately.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 167
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 167,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 168
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water level - River"
+                  ],
+                  "text": [
+                        "The water level in the river can be measured with a metal or wooden rod. \n", 
+                        "The water level in the river should be measured in several places (cross-section perpendicular to the shore). \n",
+                        "Measurement should be taken from the bridge or the edge. If it is safe to do so, the measurements can be made by entering the river. \n",
+                        "Observe all safety rules during the measurement, especially when someone is in the water."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 168,
+            "questionId": 3,
+            "question": "Water Level: Measure the water level of the river of interest. (in m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 169
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 169,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 170
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Velocity - River"
+                  ],
+                  "text": [],
+                  "steps": [
+                    "1. The flow velocity in the river can be measured with a piece of wood and a timer.", 
+                    "2. Find a straight part of the river, then select the starting and ending points and measure the distance between them.",
+                    "3. Throw a wooden piece into the river before the starting point - it should be placed in the center of the cross-section.",
+                    "4. As soon as the piece of wood passes the starting point, start the timer and measure the flow time of the wooden piece to the endpoint.",
+                    "5. By knowing the time and distance traveled by the piece of wood, you can calculate the velocity."
+                ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 170,
+            "questionId": 4,
+            "question": "Velocity: Calculate the flow velocity of the river. (in m/s).",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 171
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 171,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 172
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Air Temperature"
+                  ],
+                  "text": [
+                        "An outdoor thermometer should be used to measure the temperature. \n",
+                       "Measurements should be performed at the beginning and at the end of field research. \n",
+                       "In the case of measurements are longer than 2 hours or noticeable temperature changes during the exercise will be noticed, the temperature should be measured several times - the frequency of measurements should be selected to capture the dynamics of temperature changes. \n",
+                       "The air temperature is measured in the same way as checking the temperature on a window thermometer. During the first measurement, wait a few minutes for the value to stabilize."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 172,
+            "questionId": 5,
+            "question": "Air Temperature: Write the measured air temperature (in °C). If you have multiple measurements, separate them with a comma (e.g 15,18,23)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 173
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 173,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 174
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water Temperature"
+                  ],
+                  "text": ["Water temperature is measured in a similar way to air temperature measurement. Approximately 1 minute must elapse between the insertion of the thermometer in the water and the value reading (liquid inertia in the thermometer). Read the temperature carefully, do not remove the thermometer from the water while taking the measurement."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 174,
+            "questionId": 6,
+            "question": "Water Temperature: Write the measured water temperature (in °C).",
+            "questionType": "number",
+            "min": -100,
+            "max": 100,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 175,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 176
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Precipitation"
+                  ],
+                  "text": [
+                        "A rain gauge can be any container in which we can collect water: a bowl, a jar, a bottle with a cut-off neck (any shape of the inlet). The volume of water that will be collected in the container and the time it took for this water to collect should be measured. \n", 
+                        "The measurement can be performed in two variants measurement of: the daily sum of precipitation, and the instantaneous intensity of the rainfall episode."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 176,
+            "questionId": 1,
+            "question": "Precipitation intensity: During the rain, at the same time, set the container to catch rainwater and start the timer. Measure the time remaining until the rainfall ends/reduces its strenght or until the container is completely full. Then measure the volume of the collected water. (in dm³/min)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 177
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 177,
+            "questionId": 2,
+            "question": "Daily sum of precipitation: The rain gauge should be put in a safe place that allows it to be left for several days or even months. Every day at the same time the volume of collected water should be measured (in dm³/min). The rain gauge should be emptied and put back in the same place after the measurement. If you notice any debris, remove it immediately.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 178
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 178,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 179
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water level - River"
+                  ],
+                  "text": [
+                        "The measurement of the water surface level in the river can be done using a metal or wooden rod. It can be made from a bridge or shore if safe to do so. \n", 
+                        "If the river is small, the measurements of the water surface level can be done by entering the river. \n",
+                        "The measurement of the water surface level in the river should be made in the selected cross-section in several places by making the so-called probing. This allows to determine the shape of the measurement cross-section and its characteristic parameters, such as the cross-sectional area, wetted circumference, or the width of the river at the water surface level."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 179,
+            "questionId": 3,
+            "question": "Water Level: Measure the water level of the river of interest. (in m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 180
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 180,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 181
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Local velocity - River"
+                  ],
+                  "text": [
+                        "The local velocity in the river is measured using a current meter or other velocity measuring device. \n", 
+                        "To perform the measurement first, it is necessary to probe the cross-section of the river bed. After the probing is completed, the number and position of the measurement verticals are determined. In each of them, velocity measurements are made at appropriate depths. \n",
+                        "Spot velocity measurements can be divided into: \n",
+                        "1. complete - measurements are made in many points and for many verticals \n",
+                        "2. surface - in verticals at the water surface, this is to determine the maximum velocity because, based on the velocity curves, can be known that there is a maximum speed under the water surface level \n",
+                        "3. shortened - at selected points and verticals \n",
+                        "Shortened can be divided into: \n",
+                        "3.1. single-point - at a depth of 0.4h or 0.6h from the bottom, where h is the water depth in the hydrometric verticals [Vm = V0,4h or Vm = V0,6h] \n",
+                        "3.2. two-point - at a depth of 0.2 h and 0.8 h from the bottom [Vm = 0.5(V0,2h + V0,8h) or Vm = 0.25(V0.2h + V0,4h + V0.8h)]"
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 181,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 182
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Local velocity - River"
+                  ],
+                  "text": ["Below you can see more details about the hydrometric verticals:"],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": [
+                {
+                    "imgPath": "Picture_22.png"
+                },
+                {
+                    "imgPath": "Picture_23.png"
+                }
+            ]
+        },
+        {
+            "stepId": 182,
+            "questionId": 4,
+            "question": "Velocity: Calculate the local velocity of the river. (in m/s).",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 183
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 183,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 184
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Discharge - River"
+                  ],
+                  "text": [
+                      "The measurement of the flow rate is indirectly measured by measuring the flow velocity. \n",
+                      "The velocity is measured at selected points in the cross-section, called the hydrometric cross-section. \n",
+                      "Such a cross-section must meet the following conditions: \n",
+                      "It should be located on a straight section of the river, it should be single, compact, and regular. \n",
+                      "In such a selected cross-section, 1. the depth sounding from the bottom to the water surface level is carried out \n",
+                      "2. At selected points located on the hydrometric vertical (at different depths) of this cross-section, the velocity is measured. \n",
+                      "Using velocity measurements for individual hydrometric verticals, velocity curves can be plotted. \n",
+                      "On their basis, the average velocity for the hydrometric verticals is determined. It is calculated by dividing the area under velocity curves by the vertical water depth."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 184,
+            "questionId": 5.1,
+            "question": "Discharge: Calculate the flow rate of the river, using the Culmann's method or the Harlacher's method (in m³/s). ",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 185
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 185,
+            "questionId": 5.2,
+            "question": "Discharge: Calculate the flow rate of the river, using the Culmann's method or the Harlacher's method (in m³/s). Upload a picture with the graphical solution.",
+            "questionType": "file",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 186
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 186,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 187
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Geometry – River cross-section"
+                  ],
+                  "text": [
+                      "The geometry is measured for the selected river cross-section. \n",
+                      "The needed parameters are the shape of this cross-section, and its dimensions, such as the cross-sectional area, the maximum cross-section area and the width at the water surface level, as well as for the maximum filling. \n",
+                      "Measurements are made by probing the bottom of the channel, and measuring the width with a metal ruler. \n",
+                      "The cross-section measurements should be selected so that it is easily accessible. It can be located near the bridge or in any section of the watercourse."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 187,
+            "questionId": 6,
+            "question": "Geometry: Measure the geometry of the selected river cross-section according with the previous instructions. (shape of the cross-section, and its dimensions) ",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 188
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 188,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 189
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Air Temperature"
+                  ],
+                  "text": [
+                        "An outdoor thermometer should be used to measure the temperature. \n",
+                       "Measurements should be performed at the beginning and at the end of field research. \n",
+                       "In the case of measurements are longer than 2 hours or noticeable temperature changes during the exercise will be noticed, the temperature should be measured several times - the frequency of measurements should be selected to capture the dynamics of temperature changes. \n",
+                       "The air temperature is measured in the same way as checking the temperature on a window thermometer. During the first measurement, wait a few minutes for the value to stabilize."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 189,
+            "questionId": 7,
+            "question": "Air Temperature: Write the measured air temperature (in °C). If you have multiple measurements, separate them with a comma (e.g 15,18,23)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 190
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 190,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 191
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water Temperature"
+                  ],
+                  "text": ["Water temperature is measured in a similar way to air temperature measurement. Approximately 1 minute must elapse between the insertion of the thermometer in the water and the value reading (liquid inertia in the thermometer). Read the temperature carefully, do not remove the thermometer from the water while taking the measurement."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 191,
+            "questionId": 8,
+            "question": "Water Temperature: Write the measured water temperature (in °C).",
+            "questionType": "number",
+            "min": -100,
+            "max": 100,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 192,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 193
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Measurements Section"
+                  ],
+                  "text": ["You chose to make measurements for a standing water (reservoir) area!"],
+                  "steps": []
+            },
+            "noteButtonText": "START TO MEASURE",
+            "images": []
+        },
+        {
+            "stepId": 193,
+            "questionId": "",
+            "question": "",
+            "questionType": "safety",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 194
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Safety Precautions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Please dress appropriately to the weather conditions. ",
+                "2. Dress properly during a laboratory activity. Long hair, dangling jewelry, and loose or baggy clothing are a hazard in the laboratory. Long hair must be tied back, and dangling jewelry and baggy clothing must be secured. No high heels allowed on  laboratory days. No special clothes nor footwear is mandatory during the laboratory tests, however there is a risk of clothing damage or wetting, so the student will decide if want to use special clothing, but he or she is responsible for it.",
+                "3. Taking measurement during a storm is forbidden.",
+                "4. Do not complete the questionnaire in places where special care should be taken (road, crossing the track, etc.)",
+                "5. Make sure that you understand a measurement procedure. If not, ask your teacher before proceeding with the activity.",
+                "6. Perform only those experiments authorized by your teacher.",
+                "7. Observe good housekeeping practices. Work areas should be kept clean and tidy all the time.",
+                "8. Wear the visibility (reflective) vest when measuring on the road.",
+                "9. Do not enter places that are not allowed.",
+                "10. Do not move away from the group without informing the teacher.",
+                "11. Measurement should be made in a group (minimum 2 people) – don’t approach rivers and reservoirs alone.",
+                "12. After the experiment, return all equipment to the instructor and keep your work area clean.",
+                "13. Notify the teacher immediately of any unsafe conditions you observe. Report any accident (spill, breakage, etc.) or injury (cut, burn, etc.) to the teacher immediately, no matter how trivial it seems. If you or your laboratory partner is hurt, immediately (and loudly) yell out the teacher's name to get the teacher’s attention."
+              ]
+            },
+            "noteButtonText": "GO TO MEASUREMENT INFORMATION",
+            "images": []
+        },
+        {
+            "stepId": 194,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 195
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Measurement Types"
+                  ],
+                  "text": [
+                        "There are 2 types of measurements: \n",
+                        "1. Simple: measurements that can be made independently, without the help of a teacher and without the use of specialized devices. \n", 
+                        "2. Difficult: measurements that should be done by adults and may require specialized equipment. \n"
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": [
+                {
+                    "imgPath": "Picture_20.png"
+                  },
+                  {
+                    "imgPath": "Picture_21.png"
+                  }
+            ]
+        },
+        {
+            "stepId": 195,
+            "questionId": "",
+            "question": "Choose your type of measurements:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Simple measurements",
+                    "nextStep": 196
+                },
+                {
+                    "answer": "Difficult measurements",
+                    "nextStep": 205
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 196,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 197
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Precipitation"
+                  ],
+                  "text": [
+                        "A rain gauge can be any container in which we can collect water: a bowl, a jar, a bottle with a cut-off neck (any shape of the inlet). The volume of water that will be collected in the container and the time it took for this water to collect should be measured. \n", 
+                        "The measurement can be performed in two variants measurement of: the daily sum of precipitation, and the instantaneous intensity of the rainfall episode."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 197,
+            "questionId": 1,
+            "question": "Precipitation intensity: During the rain, at the same time, set the container to catch rainwater and start the timer. Measure the time remaining until the rainfall ends/reduces its strenght or until the container is completely full. Then measure the volume of the collected water. (in dm³/min)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 198
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 198,
+            "questionId": 2,
+            "question": "Daily sum of precipitation: The rain gauge should be put in a safe place that allows it to be left for several days or even months. Every day at the same time the volume of collected water should be measured (in dm³/min). The rain gauge should be emptied and put back in the same place after the measurement. If you notice any debris, remove it immediately.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 199
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 199,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 200
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water level - reservoir"
+                  ],
+                  "text": [
+                        "The water level in the reservoir is measured with a metal or wooden rod. \n", 
+                        "It can be made from the bridge, on the edge if it is safe to do, or from a platform on the tank if available. \n",
+                        "Observe all safety rules during the measurement. If the reservoir is monitored, you can read the water level in a water gauge."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 200,
+            "questionId": 3,
+            "question": "Water level: Measure the water level of the selected reservoir. (in m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 201
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 201,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 202
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Air Temperature"
+                  ],
+                  "text": [
+                        "An outdoor thermometer should be used to measure the temperature. \n",
+                       "Measurements should be performed at the beginning and at the end of field research. \n",
+                       "In the case of measurements are longer than 2 hours or noticeable temperature changes during the exercise will be noticed, the temperature should be measured several times - the frequency of measurements should be selected to capture the dynamics of temperature changes. \n",
+                       "The air temperature is measured in the same way as checking the temperature on a window thermometer. During the first measurement, wait a few minutes for the value to stabilize."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 202,
+            "questionId": 4,
+            "question": "Air Temperature: Write the measured air temperature (in °C). If you have multiple measurements, separate them with a comma (e.g 15,18,23)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 203
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 203,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 204
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water Temperature"
+                  ],
+                  "text": ["Water temperature is measured in a similar way to air temperature measurement. Approximately 1 minute must elapse between the insertion of the thermometer in the water and the value reading (liquid inertia in the thermometer). Read the temperature carefully, do not remove the thermometer from the water while taking the measurement."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 204,
+            "questionId": 5,
+            "question": "Water Temperature: Write the measured water temperature (in °C).",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 205,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 206
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Precipitation"
+                  ],
+                  "text": [
+                        "A rain gauge can be any container in which we can collect water: a bowl, a jar, a bottle with a cut-off neck (any shape of the inlet). The volume of water that will be collected in the container and the time it took for this water to collect should be measured. \n", 
+                        "The measurement can be performed in two variants measurement of: the daily sum of precipitation, and the instantaneous intensity of the rainfall episode."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 206,
+            "questionId": 1,
+            "question": "Precipitation intensity: During the rain, at the same time, set the container to catch rainwater and start the timer. Measure the time remaining until the rainfall ends/reduces its strenght or until the container is completely full. Then measure the volume of the collected water. (in dm³/min)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 207
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 207,
+            "questionId": 2,
+            "question": "Daily sum of precipitation: The rain gauge should be put in a safe place that allows it to be left for several days or even months. Every day at the same time the volume of collected water should be measured (in dm³/min). The rain gauge should be emptied and put back in the same place after the measurement. If you notice any debris, remove it immediately.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 208
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 208,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 209
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water level - Reservoir"
+                  ],
+                  "text": [
+                        "The water level in the reservoir is measured with a metal or wooden rod. \n", 
+                        "It can be made from the bridge, on the edge if it is safe to do, or from a platform on the tank if available. \n",
+                        "Observe all safety rules during the measurement. If the reservoir is monitored, you can read the water level in a water gauge."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 209,
+            "questionId": 3,
+            "question": "Water level: Measure the water level of the selected reservoir. (in m)",
+            "questionType": "number",
+            "min": 0,
+            "max": 1000000,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 210
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 210,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 211
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Geometry - Reservoir"
+                  ],
+                  "text": [
+                        "The geometry of the reservoir is measured by measuring (if possible) its dimensions and water depth. \n", 
+                        "In addition, the geometry of the river that flows in and out of the reservoir should be measured. \n",
+                        "The dimensions of the riverbed / reservoir are determined by the so-called probing the bottom in several longitudinal and transverse sections and leveling of slopes and dry parts (if any). \n",
+                        "It is necessary to perform as many measurements to accurately reproduce the river/reservoir geometry. It can be done from bridges, structures going deep into the reservoir, a pontoon, and if it is not possible from the shore, but in several dozen places. \n",
+                        "The reference point for all measurements (so as to combine the measurement of the bottom with the measurement of slopes) can be the water surface level."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 211,
+            "questionId": 4,
+            "question": "Geometry: Give your measurements for the dimensions and water depth of the reservoir (in m)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 212
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 212,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 213
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Air Temperature"
+                  ],
+                  "text": [
+                        "An outdoor thermometer should be used to measure the temperature. \n",
+                       "Measurements should be performed at the beginning and at the end of field research. \n",
+                       "In the case of measurements are longer than 2 hours or noticeable temperature changes during the exercise will be noticed, the temperature should be measured several times - the frequency of measurements should be selected to capture the dynamics of temperature changes. \n",
+                       "The air temperature is measured in the same way as checking the temperature on a window thermometer. During the first measurement, wait a few minutes for the value to stabilize."
+                    ],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 213,
+            "questionId": 5,
+            "question": "Air Temperature: Write the measured air temperature (in °C). If you have multiple measurements, separate them with a comma (e.g 15,18,23)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 214
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 214,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 215
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Water Temperature"
+                  ],
+                  "text": ["Water temperature is measured in a similar way to air temperature measurement. Approximately 1 minute must elapse between the insertion of the thermometer in the water and the value reading (liquid inertia in the thermometer). Read the temperature carefully, do not remove the thermometer from the water while taking the measurement."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 215,
+            "questionId": 6,
+            "question": "Water Temperature: Write the measured water temperature (in °C).",
+            "questionType": "number",
+            "min": -100,
+            "max": 100,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": -1,
+            "questionId": "",
+            "question": "",
+            "questionType": "end",
+            "answer": "",
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        }
+
+    ]
+}

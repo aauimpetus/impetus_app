@@ -1,0 +1,1499 @@
+{
+  "name": "Water Biological & Microplastic Pollution",
+  "type": "IO1",
+  "totalQ": 25,
+  "questions":[
+        {
+            "stepId": 0,
+            "questionId": "",
+            "question": "",
+            "questionType": "start",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 1
+                }
+            ],
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 1,
+            "questionId": 1,
+            "question": "Season:",
+            "questionType": "radio",
+            "answer": [
+				{
+                    "answer": "spring",
+                    "nextStep": 2
+                },
+                {
+                    "answer": "summer",
+                    "nextStep": 2
+                },
+                {
+                    "answer": "autumn",
+                    "nextStep": 2
+                },
+                {
+                    "answer": "winter",
+                    "nextStep": 2
+                }
+            ],
+			"skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 2,
+            "questionId": 2,
+            "question": "Time of the day:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "morning (8.00am- 11.00am)",
+                    "nextStep": 3
+                },
+                {
+                    "answer": "noon (11.00am- 2.00pm)",
+                    "nextStep": 3
+                },
+                {
+                    "answer": "afternoon (2.00pm- 4.00pm)",
+                    "nextStep": 3
+                },
+                {
+                    "answer": "evening (4.00pm- 8.00pm)",
+                    "nextStep": 3
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+		{
+            "stepId": 3,
+            "questionId": 3,
+            "question": "Air temperature (in °C):",
+            "questionType": "number",
+            "min": -100,
+            "max": 100,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 4
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 4,
+            "questionId": 4.1,
+            "question": "What was the type of precipitation events (last 48h)? (eg. rain/snow)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 5
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 5,
+            "questionId": 4.2,
+            "question": "What was the intensity of precipitation events (last 48h)? (eg. drizzle/heavy rain)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 6
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 6,
+            "questionId": 5,
+            "question": "Type of reservoir:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "standing water",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "flowing water",
+                    "nextStep": 9
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 7,
+            "questionId": 5.1,
+            "question": "What type of standing water?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "natural",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "artificial",
+                    "nextStep": 8
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 8,
+            "questionId": 5.2,
+            "question": "What type of standing water?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "sea/reservoir",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "lake",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "pond",
+                    "nextStep": 11
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 9,
+            "questionId": 5.1,
+            "question": "What type of flowing water?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "natural",
+                    "nextStep": 10
+                },
+                {
+                    "answer": "artificial",
+                    "nextStep": 10
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 10,
+            "questionId": 5.2,
+            "question": "What type of flowing water?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "river/channel",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "stream",
+                    "nextStep": 11
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 11,
+            "questionId": 6,
+            "question": "Type of the catchment:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "urban (center of the city, close to main street)",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "semi-urban (outskirts of the city)",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "rural (close to agriculture areas)",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "semi-rural (scattered housing)",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "other",
+                    "nextStep": 12
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 12,
+            "questionId": 6.1,
+            "question": "Please provide a short description of the catchment:",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 13
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 13,
+            "questionId": 7,
+            "question": "Type of the reservoir entrenchment:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "none (natural course is maintained)",
+                    "nextStep": 14
+                },
+                {
+                    "answer": "partly",
+                    "nextStep": 14
+                },
+                {
+                    "answer": "full",
+                    "nextStep": 14
+                },
+                {
+                    "answer": "other",
+                    "nextStep": 14
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 14,
+            "questionId": 7.1,
+            "question": "Please provide a short description of the entrenchment: (eg. what type? (fascine, gabions, concrete)) ",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 15
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 15,
+            "questionId": 8.1,
+            "question": "Potential sources of the pollutants: Are there any discharges, connection with pipes?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 16
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 16,
+            "questionId": 8.2,
+            "question": "Potential sources of the pollutants: Are there any connection with other water bodies?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 17
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 17,
+            "questionId": 8.3,
+            "question": "Potential sources of the pollutants: Is nearby an industrial plant? (what type?)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 18
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 18,
+            "questionId": 8.4,
+            "question": "Potential sources of the pollutants: other (define other)",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 19
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 19,
+            "questionId": "",
+            "question": "",
+            "questionType": "safety",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 20
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Safety Precautions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Please dress appropriately to the weather conditions. ",
+                "2. Make sure that you understand a measurement procedure. If not, ask your teacher before proceeding with the activity . ",
+                "3. Perform only those experiments authorized by your teacher.",
+                "4. Make sure the water level is not above 30 cm (hardened bottom, safety access with galoshes).",
+                "5. Team of two persons at least is recommended.",
+                "6. Do not enter places that are not allowed.",
+                "7. Do not move away from the group without informing the teacher."
+              ]
+            },
+            "noteButtonText": "GO TO MEASUREMENT INFORMATION",
+            "images": []
+        },
+        {
+            "stepId": 20,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 21
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Measurements: odor, turbidity, suspended solids, color",
+                "Method: Organoleptic/Colorimetric"
+              ],
+              "text": [
+                "Colorimetric method – a technique consisting in comparing the color of the analyzed solution with the color of the reference solution. The reference solution is a solution of known concentration. \n",
+                "Equipment: disposable gloves, galoshes, 2 glass beakers/jars  (well washed), string, white paper, (coffee) filter, funnel, stopwatch \n",
+                "Note! Organoleptic method (sensory method) – quality assessment via senses – sight, smell, taste and touch. The advantage of this method is its availability, the disadvantage - the subjectivity of the assessment. \n"
+              ],
+              "steps": []
+            },
+            "noteButtonText": "GO TO MEASUREMENT INSTRUCTION",
+            "images": []
+        },
+        {
+            "stepId": 21,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 22
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instructions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Make sure that place is safe. ",
+                "2. Make sure that water level is not above 30 cm (hardened bottom, safety access with galoshes). ",
+                "3. Do not take measurements alone. Team of two persons at least is recommended.",
+                "4. Tie a string around the well washed jar.",
+                "5. Holding a string immerse the jar in a water.",
+                "6. Pull the jar out of the water and start observation. Jar should be filled to ¾ volume, next close the jar and shake for 30s.",
+                "7. Immediately after sample collection, carefully smell the water inside the jar and describe following parameter."
+              ]
+            },
+            "noteButtonText": "START",
+            "images": [
+              {
+                "imgPath": "Picture_1.png"
+              },
+              {
+                "imgPath": "Picture_2.png"
+              },
+              {
+                "imgPath": "Picture_3.png"
+              }
+            ]
+        },
+        {
+            "stepId": 22,
+            "questionId": 9,
+            "question": "Odor quantity (intensity analysis)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "no odor",
+                    "score": 1,
+                    "nextStep": 24
+                },
+                {
+                    "answer": "perceptible",
+                    "score": 2,
+                    "nextStep": 23
+                },
+                {
+                    "answer": "intensive",
+                    "score": 3,
+                    "nextStep": 23
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 23,
+            "questionId": 10,
+            "question": "Odor quality (description analysis)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "plant (eg. soil, grass, cucumber, flower, aromatic)",
+                    "score": 1,
+                    "nextStep": 24
+                },
+                {
+                    "answer": "putrid (eg. musty, mould, fecal, hydrogen sulfide – rotten eggs)",
+                    "score": 2,
+                    "nextStep": 24
+                },
+                {
+                    "answer": "specific (eg. chemical, petroleum, phenol, kerosene, tar, gasoline) ",
+                    "score": 3,
+                    "nextStep": 24
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 24,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 25
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Note"
+              ],
+              "text": ["Natural water body which are clean should have no odor or perceptible smell, all others could indicate anaerobic decay or pollution which disqualify water in terms of its quality."],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 25,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 26
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instruction"
+              ],
+              "text": [],
+              "steps": [
+                "8. Put the jar on the white paper and compare your sample with images."
+              ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 26,
+            "questionId": 11,
+            "question": "Turbidity ",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "no turbidity < 3 NTU   (a)",
+                "score": 1,
+                "nextStep": 27
+              },
+              {
+                "answer": "acceptable turbidity 3-6 NTU (eg. if you can read an instruction, or see fingerprints through the sample)   (a)",
+                "score": 1,
+                "nextStep": 27
+              },
+              {
+                "answer": "turbid 6-15 NTU (eg. if you cannot read an instruction, or can see palm without fingerprints through the sample)   (b)",
+                "score": 2,
+                "nextStep": 27
+              },
+              {
+                "answer": "very turbid/ no visibility > 15 NTU (eg. if you cannot see anything though the sample)   (c)",
+                "score": 3,
+                "nextStep": 27
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+              {
+                "answerId": "a",
+                "imgPath": "Picture_4.png"
+              },
+              {
+                "answerId": "b",
+                "imgPath": "Picture_5.png"
+              },
+              {
+                "answerId": "c",
+                "imgPath": "Picture_6.png"
+              }
+            ]
+          },
+          {
+            "stepId": 27,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 28
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Note!"
+              ],
+              "text": ["Turbidity could be both of natural and anthropogenic origin, but in both cases turbidity could be medium for the development of microorganisms and bacteria. Human eye can notice turbidity above 3 NTU (Neferometric Turbidity Unit) level, on that basis the evaluation scale was prepared."],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 28,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 29
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instruction"
+              ],
+              "text": [],
+              "steps": [
+                "9. Watch the sample for 15 minutes and try to observe behavior of suspended solids. "
+              ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 29,
+            "questionId": 12,
+            "question": "Do you notice a suspended solids?",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "yes",
+                "score": 1,
+                "nextStep": 30
+              },
+              {
+                "answer": "no",
+                "score": 1,
+                "nextStep": 34
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 30,
+            "questionId": 13,
+            "question": "If yes, does it fall easy (fast)?",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "yes",
+                "score": 1,
+                "nextStep": 31
+              },
+              {
+                "answer": "no",
+                "score": 2,
+                "nextStep": 31
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 31,
+            "questionId": 14,
+            "question": "Are there floating particles?",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "yes",
+                "score": 1,
+                "nextStep": 32
+              },
+              {
+                "answer": "no",
+                "score": 1,
+                "nextStep": 33
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 32,
+            "questionId": 15,
+            "question": "If yes, try to evaluate type of floating particles.",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "organic/natural (eg. leaf, pollen, stick)",
+                "score": 0,
+                "nextStep": 33
+              },
+              {
+                "answer": "specific/anthropogenic (eg. plastic, oil)",
+                "score": 2,
+                "nextStep": 33
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 33,
+            "questionId": 16,
+            "question": "Mark image similar to your sample after 15 minutes of sedimentation. ",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "if you see two separate phases clearly. (sediment in the bottom of the vessel)   (a)",
+                "score": 1,
+                "nextStep": 34
+              },
+              {
+                "answer": "if you see three phases vaguely. (most likely there is colloidal fraction, which do not undergoes sedimentation)   (b)",
+                "score": 2,
+                "nextStep": 34
+              },
+              {
+                "answer": "if you do not see a difference after 15 minutes. (suspended solids are not undergo sedimentation)   (c)",
+                "score": 3,
+                "nextStep": 34
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+              {
+                "answerId": "a",
+                "imgPath": "Picture_11.png"
+              },
+              {
+                "answerId": "b",
+                "imgPath": "Picture_12.png"
+              },
+              {
+                "answerId": "c",
+                "imgPath": "Picture_13.png"
+              }
+            ]
+          },
+          {
+            "stepId": 34,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 35
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Note!"
+              ],
+              "text": ["Too high concentration of the suspended solids may reduce the access of sunlight and interferes with the photosynthesis process. Suspended solids could be both of natural and anthropogenic origin, varied from season (algae bloom) and weather condition (storm events)."],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 35,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [ 
+                {
+                    "answer":"",
+                    "nextStep": 36
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instructions"
+              ],
+              "text": [],
+              "steps": [
+                "10. Prepare second jar with funnel inside. ",
+                "11. Put the coffee filter in the funnel.",
+                "12. Prepare a stopwatch and start carefully pouring water from first jar to a second one with stopwatch on.",
+                "13. Note the time of filtration and try to define amount of suspended solids.",
+                "Tip: filtration time of 1 liter of potable water is approximately 2 minutes"
+              ]
+            },
+            "noteButtonText": "Continue",
+            "images": [
+              {
+                "imgPath": "Picture_7.png"
+              },
+              {
+                "imgPath": "Picture_8.png"
+              },
+              {
+                "imgPath": "Picture_9.png"
+              },
+              {
+                "imgPath": "Picture_10.png"
+              }
+            ]
+          },
+          {
+            "stepId": 36,
+            "questionId": 17,
+            "question": "Filtration time",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "~ 2 minutes",
+                "score": 1,
+                "nextStep": 37
+              },
+              {
+                "answer": "3 min – 5 min",
+                "score": 2,
+                "nextStep": 37
+              },
+              {
+                "answer": "over 5 min",
+                "score": 3,
+                "nextStep": 37
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 37,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 38
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instruction"
+              ],
+              "text": [],
+              "steps": [
+                "14. Put the jar on the white paper and compare your sample with images. "
+              ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 38,
+            "questionId": 18,
+            "question": "Color (after filtration) ",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "no color < 20mg Pt/L",
+                "score": 1,
+                "nextStep": 39
+              },
+              {
+                "answer": "20-40 mg Pt/L   (b)",
+                "score": 2,
+                "nextStep": 39
+              },
+              {
+                "answer": "40-60 mg Pt/L   (c)",
+                "score": 3,
+                "nextStep": 39
+              },
+              {
+                "answer": "> 60 mg Pt/L   (d)",
+                "score": 4,
+                "nextStep": 39
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+              {
+                "answerId": "b",
+                "imgPath": "Picture_14.png"
+              },
+              {
+                "answerId": "c",
+                "imgPath": "Picture_15.png"
+              },
+              {
+                "answerId": "d",
+                "imgPath": "Picture_16.png"
+              }
+            ]
+          },
+          {
+            "stepId": 39,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 40
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instruction"
+              ],
+              "text": [],
+              "steps": [
+                "15. After pouring all of the water, start observation of the filter leftovers on the white card and try to describe the following parameter:"
+              ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 40,
+            "questionId": 19,
+            "question": "Is there any suspended solids on the filter? ",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "no",
+                "score": 0,
+                "nextStep": 43
+              },
+              {
+                "answer": "yes",
+                "score": 1,
+                "nextStep": 41
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 41,
+            "questionId": 20,
+            "question": "Suspended solids (after filtration) - assessment of the structure and origin",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "mineral/sand   (a)",
+                "score": 1,
+                "nextStep": 42
+              },
+              {
+                "answer": "organic/muddy   (a)",
+                "score": 1,
+                "nextStep": 42
+              },
+              {
+                "answer": "specific (plastic, petroleum)   (b)",
+                "score": 3,
+                "nextStep": 42
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+              {
+                "answerId": "a",
+                "imgPath": "Picture_17.png"
+              },
+              {
+                "answerId": "b",
+                "imgPath": "Picture_18.png"
+              }
+            ]
+          },
+          {
+            "stepId": 42,
+            "questionId": 21,
+            "question": "Suspended solids (after filtration) – color",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "sandy   (a)",
+                "score": 1,
+                "nextStep": 43
+              },
+              {
+                "answer": "brown   (a)",
+                "score": 1,
+                "nextStep": 43
+              },
+              {
+                "answer": "green   (b)",
+                "score": 3,
+                "nextStep": 43
+              },
+              {
+                "answer": "black   (c)",
+                "score": 4,
+                "nextStep": 43
+              }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": [
+              {
+                "answerId": "a",
+                "imgPath": "Picture_17.png"
+              },
+              {
+                "answerId": "b",
+                "imgPath": "Picture_18.png"
+              },
+              {
+                "answerId": "c",
+                "imgPath": "Picture_19.png"
+              }
+            ]
+          },
+          {
+            "stepId": 43,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 44
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Note!"
+              ],
+              "text": ["Both color and smell of the water are assessed as an acceptable or NOT acceptable. While the turbidity undergoes the quantity assessment because of it is strictly linked to microbiological quality of the water body"],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 44,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 45
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Measurements: pH, temperature, (conductivity – for students)",
+                "Method: contact"
+              ],
+              "text": [
+                "Parameters are measured with compact precision portable meter. ",
+                "Temperature could be measured with thermometer (for non educated). ",
+                "pH could be measured with universal indicator paper (for non educated). ",
+                "Equipment: disposable gloves, galoshes, glass beaker/jar (well washed), string, thermometer, universal indicator paper, smartphone with camera, (compact precision portable meter – for students)"
+              ],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 45,
+            "questionId": "",
+            "question": "",
+            "questionType": "safety",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 46
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Safety Precautions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Please dress appropriately to the weather conditions. ",
+                "2. Make sure that you understand a measurement procedure. If not, ask your teacher before proceeding with the activity . ",
+                "3. Perform only those experiments authorized by your teacher.",
+                "4. Make sure the water level is not above 30 cm (hardened bottom, safety access with galoshes).",
+                "5. Team of two persons at least is recommended.",
+                "6. Do not enter places that are not allowed.",
+                "7. Do not move away from the group without informing the teacher."
+              ]
+            },
+            "noteButtonText": "GO TO MEASUREMENT INSTRUCTION",
+            "images": []
+          },
+          {
+            "stepId": 46,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 47
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instructions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Make sure that place is safe. ",
+                "2. Make sure that water level is not above 30 cm (hardened bottom, safety access with galoshes).",
+                "3. Do not take measurements alone. Team of two persons at least is recommended.",
+                "4. Tie a string around the well washed jar.",
+                "5. Holding a string immerse the jar in a water.",
+                "6. Put the thermometer into the water and wait until temperature is stable. Note the results.",
+                "7. (For students) Prepare compact precision portable meter with pH/temperature probe and put it into the water.",
+                "8. Wait until the result is stable. Note the results."
+              ]
+            },
+            "noteButtonText": "START",
+            "images": []
+          },
+          {
+            "stepId": 47,
+            "questionId": 22,
+            "question": "Water temperature",
+            "questionType": "number",
+            "min": 0,
+            "max": 100,
+            "answer":[
+                {
+                    "answer":"",
+                    "nextStep": 48
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 48,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 49
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Note!"
+              ],
+              "text": ["Water temperature can varied during the season and day. A substantial difference in water and air temperature may indicate anthropogenic pollution (discharge of wastewater or cooling water from industry), if the water temperature is much higher than the air temperature resulting from the season and day."],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 49,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 50
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instructions"
+              ],
+              "text": [],
+              "steps": [
+                "9. Put the universal indicator paper into the water and wait until it is whole wet.  Wait about 15 seconds and compare universal indicator paper color with scale color. Note the results.",
+                "10. (For students) Prepare compact precision portable meter with pH probe and put it into the water.",
+                "11. Wait until the result is stable. Note the results."
+              ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 50,
+            "questionId": 23,
+            "question": "pH",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "6.5-8.0",
+                "score": 1,
+                "nextStep": 51
+              },
+              {
+                "answer": "8.0-9.0",
+                "score": 2,
+                "nextStep": 51
+              },
+              {
+                "answer": "> 6.5 or < 9.0",
+                "score": 3,
+                "nextStep": 51
+              }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 51,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 52
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Note!"
+              ],
+              "text": ["Natural water could have pH in a range of 6.5 -8.0. Natural water are capable to buffer the pH towards alkalinity."],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 52,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 53
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instructions"
+              ],
+              "text": [],
+              "steps": [
+                "12. (For students) Prepare compact precision portable meter with conductivity probe and put it into the water.",
+                "13. Wait until the result is stable. Note the results."
+              ]
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 53,
+            "questionId": 24,
+            "question": "Conductivity (0.1 - 10 mS/cm)",
+            "questionType": "number",
+            "min": 0,
+            "max": 10,
+            "answer":[
+                {
+                    "answer":"",
+                    "nextStep": 54
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": 54,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 55
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Measurements: dissolved oxygen concentration (for students)",
+                "Method: chemical"
+              ],
+              "text": [
+                "Dissolved oxygen is used as an indicator of the quality of a water body. Higher dissolved oxygen concetration means little pollution.",
+                "Equipment: 250 mL glass Biological Oxygen Demand stoppered bottle brim-full, manganese sulfate, alkali-iodide-azide, disposable gloves, smartphone with camera"
+              ],
+              "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+          },
+          {
+            "stepId": 55,
+            "questionId": "",
+            "question": "",
+            "questionType": "safety",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 56
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Safety Precautions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Please dress appropriately to the weather conditions. ",
+                "2. Make sure that you understand a measurement procedure. If not, ask your teacher before proceeding with the activity. ",
+                "3. Perform only those experiments authorized by your teacher.",
+                "4. Make sure the water level is not above 30 cm (hardened bottom, safety access with galoshes).",
+                "5. Team of two persons at least is recommended.",
+                "6. Do not enter places that are not allowed.",
+                "7. Do not move away from the group without informing the teacher.",
+                "8. Please use caution when using reagents, as they can be hazardous."
+              ]
+            },
+            "noteButtonText": "GO TO MEASUREMENT INSTRUCTION",
+            "images": []
+          },
+          {
+            "stepId": 56,
+            "questionId": "",
+            "question": "",
+            "questionType": "instruction",
+            "answer": [
+                {
+                    "answer":"",
+                    "nextStep": 57
+                }
+            ],
+            "skip": 0,
+            "note": {
+              "titles": [
+                "Instructions"
+              ],
+              "text": [],
+              "steps": [
+                "1. Make sure that place is safe. ",
+                "2. Make sure that water level is not above 30 cm (hardened bottom, safety access with galoshes). ",
+                "3. Do not take measurements alone. Team of two persons at least is recommended.",
+                "4. Please use caution when using reagents, as they can be hazardous.",
+                "5. Carefully fill 250 mL glass Biological Oxygen Demand stoppered bottle brim-full with sample water. The bottle should be completely immerse in water (no air is left inside the bottle).",
+                "6. Add 2mL manganese sulfate and 2mL alkali-iodide-azide by inserting the pipette just below the surface of the water.",
+                "7. Close the bottle and mix by inverting the sample several times. ",
+                "8. If oxygen is present, a brownish-orange suspension will appear. The darker suspension (close to dark brown), the more dissolved oxygen is present. White color of the suspension means, no dissolved oxygen.",
+                "9. Let the sediment settle to the bottom and try to describe the color of the sediment."
+              ]
+            },
+            "noteButtonText": "START",
+            "images": []
+          },
+          {
+            "stepId": 57,
+            "questionId": 25,
+            "question": "Dissolved oxygen concentration:",
+            "questionType": "radio",
+            "answer": [
+              {
+                "answer": "dark brown",
+                "score": 1,
+                "nextStep": -1
+              },
+              {
+                "answer": "brownish-orange",
+                "score": 2,
+                "nextStep": -1
+              },
+              {
+                "answer": "orange",
+                "score": 3,
+                "nextStep": -1
+              },
+              {
+                "answer": "light orange ",
+                "score": 4,
+                "nextStep": -1
+              },
+              {
+                "answer": "white ",
+                "score": 5,
+                "nextStep": -1
+                
+              }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+          },
+          {
+            "stepId": -1,
+            "questionId": "",
+            "question": "",
+            "questionType": "end",
+            "answer": "",
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+          }
+
+    ]
+}

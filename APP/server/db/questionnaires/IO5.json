@@ -1,0 +1,1781 @@
+{
+    "name": "Neighbourhood & Well-being",
+    "type": "IO5",
+    "totalQ": 54,
+    "questions":[
+        {
+            "stepId": 0,
+            "questionId": "",
+            "question": "",
+            "questionType": "start",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 1
+                }
+            ],
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 1,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 2
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Neighbourhood & Well-being Questionnaire"
+                  ],
+                  "text": [
+                      "The aim of this questionnaire is to learn about your perception of neighbourhood in terms of your well-being, climate changes, environmental issues and urban design.",
+                      "It refers to YOUR NEIGHBOURHOOD - the place where you live and its nearest surrounding within of 15 minutes walking distance.",
+                      "The questionnaire takes about 15 minutes to finish. It is divided into 5 sections with questions.",
+                      "Thank you for your time!"
+                  ],
+                  "steps": []
+            },
+            "noteButtonText": "START",
+            "images": []
+        },
+        {
+            "stepId": 2,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 3
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Section 1: Perception of living area"
+                  ],
+                  "text": ["This part refers to your perception of your neighbourhood design."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 3,
+            "questionId": 1,
+            "question": "Is your neighbourhood nicely designed with well structured streets and buildings?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 4
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 4
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 4
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 4
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 4,
+            "questionId": 2,
+            "question": "Is your neighbourhood equipped with basic services within walking distance?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 5
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 5
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 5
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 5
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 5,
+            "questionId": 3,
+            "question": "Is your neighbourhood equipped with electricity, sanitation, drinking water infrastructure?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 6
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 6,
+            "questionId": 4,
+            "question": "Is your neighbourhood combined with enough green spaces and parks?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 7
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 7,
+            "questionId": 5,
+            "question": "Is your neighbourhood walkable, easy to walk around?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 8
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 8,
+            "questionId": 6,
+            "question": "Is your neighbourhood supported by public transport?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 9
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 9,
+            "questionId": 7,
+            "question": "Is your neighbourhood supported by cycling routes?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 10
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 10
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 10
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 10
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 10,
+            "questionId": 8,
+            "question": "Is your neighbourhood friendly to children and family activities?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 11
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 11,
+            "questionId": 9,
+            "question": "Is your neighbourhood friendly to disabled or older adults?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 12
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 12,
+            "questionId": 10,
+            "question": "Is your neighbourhood with areas where you can do outdoor sports?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 13
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 13
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 13
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 13
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 13,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 14
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Section 2: Perception of subjective well-being"
+                  ],
+                  "text": ["This part refers to your perception of your well-being."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 14,
+            "questionId": 11,
+            "question": "(What do you feel regarding living in your neighbourhood?) Are you feeling being happy?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 15
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 15
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 15
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 15
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 15
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 15,
+            "questionId": 12,
+            "question": "(What do you feel regarding living in your neighbourhood?) Are you feeling being secure?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 16
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 16,
+            "questionId": 13,
+            "question": "(What do you feel regarding living in your neighbourhood?) Are you feeling being satisfied with life?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 17
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 17,
+            "questionId": 14,
+            "question": "(What do you feel regarding living in your neighbourhood?) Are you feeling being isolated?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 18
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 18,
+            "questionId": 15,
+            "question": "(What do you feel regarding living in your neighbourhood?) Are you feeling being discriminated?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 19
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 19,
+            "questionId": 16,
+            "question": "(What do you feel regarding living in your neighbourhood?) Are you feeling being depressed?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 20
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 20,
+            "questionId": 17,
+            "question": "What is your subjective perception of your well being level?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 very low",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "5 very high",
+                    "nextStep": 21
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 21,
+            "questionId": 18,
+            "question": "How much physical condition makes an impact in your well-being?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 not at all",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "5 very much",
+                    "nextStep": 22
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 22,
+            "questionId": 19,
+            "question": "How much economic condition makes an impact in your well-being?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 not at all",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "5 very much",
+                    "nextStep": 23
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 23,
+            "questionId": 20,
+            "question": "How much social relations make an impact in your well-being?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 not at all",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "5 very much",
+                    "nextStep": 24
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 24,
+            "questionId": 21,
+            "question": "How much emotional state makes an impact in your well-being?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 not at all",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "5 very much",
+                    "nextStep": 25
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 25,
+            "questionId": 22,
+            "question": "How much psycological condition makes an impact in your well-being?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 not at all",
+                    "nextStep": 26
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 26
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 26
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 26
+                },
+                {
+                    "answer": "5 very much",
+                    "nextStep": 26
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 26,
+            "questionId": 23,
+            "question": "How much neighbourhood development makes an impact in your well-being?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 not at all",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "5 very much",
+                    "nextStep": 27
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 27,
+            "questionId": 24,
+            "question": "How much engaging activities and work make an impact in your well-being?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 not at all",
+                    "nextStep": 28
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 28
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 28
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 28
+                },
+                {
+                    "answer": "5 very much",
+                    "nextStep": 28
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 28,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 29
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Section 3: Neighbourhood environmental condition"
+                  ],
+                  "text": ["This part refers to your perception of pollution and disturbances you may experience in your neighbourhood."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 29,
+            "questionId": 25,
+            "question": "Is drinking water pollution a serious problem in your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I know it is not a problem",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "I suspect it is not a problem",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "I suspect it is a problem",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "I know it is a problem",
+                    "nextStep": 30
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 30
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 30,
+            "questionId": 26,
+            "question": "Is open water (pond, stream, sea, lake) pollution a serious problem in your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I know it is not a problem",
+                    "nextStep": 31
+                },
+                {
+                    "answer": "I suspect it is not a problem",
+                    "nextStep": 31
+                },
+                {
+                    "answer": "I suspect it is a problem",
+                    "nextStep": 31
+                },
+                {
+                    "answer": "I know it is a problem",
+                    "nextStep": 31
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 31
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 31,
+            "questionId": 27,
+            "question": "Is air pollution a serious problem in your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I know it is not a problem",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "I suspect it is not a problem",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "I suspect it is a problem",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "I know it is a problem",
+                    "nextStep": 32
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 32
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 32,
+            "questionId": 28,
+            "question": "Is light pollution a serious problem in your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I know it is not a problem",
+                    "nextStep": 33
+                },
+                {
+                    "answer": "I suspect it is not a problem",
+                    "nextStep": 33
+                },
+                {
+                    "answer": "I suspect it is a problem",
+                    "nextStep": 33
+                },
+                {
+                    "answer": "I know it is a problem",
+                    "nextStep": 33
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 33
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 33,
+            "questionId": 29,
+            "question": "Is noise pollution a serious problem in your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I know it is not a problem",
+                    "nextStep": 34
+                },
+                {
+                    "answer": "I suspect it is not a problem",
+                    "nextStep": 34
+                },
+                {
+                    "answer": "I suspect it is a problem",
+                    "nextStep": 34
+                },
+                {
+                    "answer": "I know it is a problem",
+                    "nextStep": 34
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 34
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 34,
+            "questionId": 30,
+            "question": "Is odor pollution a serious problem in your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I know it is not a problem",
+                    "nextStep": 35
+                },
+                {
+                    "answer": "I suspect it is not a problem",
+                    "nextStep": 35
+                },
+                {
+                    "answer": "I suspect it is a problem",
+                    "nextStep": 35
+                },
+                {
+                    "answer": "I know it is a problem",
+                    "nextStep": 35
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 35
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 35,
+            "questionId": 31,
+            "question": "Is plastic pollution a serious problem in your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I know it is not a problem",
+                    "nextStep": 36
+                },
+                {
+                    "answer": "I suspect it is not a problem",
+                    "nextStep": 36
+                },
+                {
+                    "answer": "I suspect it is a problem",
+                    "nextStep": 36
+                },
+                {
+                    "answer": "I know it is a problem",
+                    "nextStep": 36
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 36
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 36,
+            "questionId": 32,
+            "question": "Is microplastic pollution a serious problem in your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I know it is not a problem",
+                    "nextStep": 37
+                },
+                {
+                    "answer": "I suspect it is not a problem",
+                    "nextStep": 37
+                },
+                {
+                    "answer": "I suspect it is a problem",
+                    "nextStep": 37
+                },
+                {
+                    "answer": "I know it is a problem",
+                    "nextStep": 37
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 37
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 37,
+            "questionId": 33,
+            "question": "Please share your views concerning this topic (If pollution is a serious problem in your neighbourhood).",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 38
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 38,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 39
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Section 4: Awareness of climate change effects"
+                  ],
+                  "text": ["This section refers to your perception of climate change and exposure to climate change effects and your actions."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 39,
+            "questionId": 34,
+            "question": "How much do you concern about environmental issues of your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 I do not concern at all.",
+                    "nextStep": 40
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 40
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 40
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 40
+                },
+                {
+                    "answer": "5 I do concern very much.",
+                    "nextStep": 40
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 40,
+            "questionId": 35,
+            "question": "Are you exposed to floods?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 41
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 41
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 41
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 41
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 41
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 41,
+            "questionId": 36,
+            "question": "Are you exposed to shortage of drinking water?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 42
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 42
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 42
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 42
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 42
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 42,
+            "questionId": 37,
+            "question": "Are you exposed to thermal extremes?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 43
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 43
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 43
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 43
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 43
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 43,
+            "questionId": 38,
+            "question": "Are you exposed to droughts?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 44
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 44
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 44
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 44
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 44
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 44,
+            "questionId": 39,
+            "question": "Are you exposed to none of the (floods, droughts, thermal extremes, shortage of water)?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 45
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 45
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 45
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 45
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 45
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 45,
+            "questionId": 40,
+            "question": "If you are engaged in activities, what are the determinants of your participation?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "I have the resources, skills and knowledge to participate",
+                    "nextStep": 46
+                },
+                {
+                    "answer": "I have a sense of attachment that reinforces participation",
+                    "nextStep": 46
+                },
+                {
+                    "answer": "I am involved by official bodies or voluntary groups",
+                    "nextStep": 46
+                },
+                {
+                    "answer": "I see evidence that my views have been considered",
+                    "nextStep": 46
+                },
+                {
+                    "answer": "Other",
+                    "nextStep": 46
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 46,
+            "questionId": 41,
+            "question": "How often are you engaged in monitoring the quality of city environment (floods, air pollution ect.)?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Never",
+                    "nextStep": 47
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 47
+                },
+                {
+                    "answer": "Often",
+                    "nextStep": 47
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 47
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 47
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 47,
+            "questionId": 42,
+            "question": "How often are you engaged in participating in city/local planning discussions?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Never",
+                    "nextStep": 48
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 48
+                },
+                {
+                    "answer": "Often",
+                    "nextStep": 48
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 48
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 48
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 48,
+            "questionId": 43,
+            "question": "How often are you engaged in participating in Non-Governmental Organisation projects?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Never",
+                    "nextStep": 49
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 49
+                },
+                {
+                    "answer": "Often",
+                    "nextStep": 49
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 49
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 49
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 49,
+            "questionId": 44,
+            "question": "How often are you engaged in volunteering for healthcare improvment?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Never",
+                    "nextStep": 50
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 50
+                },
+                {
+                    "answer": "Often",
+                    "nextStep": 50
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 50
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 50
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 50,
+            "questionId": 45,
+            "question": "How often are you engaged in solving problems that affect the community?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Never",
+                    "nextStep": 51
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 51
+                },
+                {
+                    "answer": "Often",
+                    "nextStep": 51
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 51
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 51
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 51,
+            "questionId": 46,
+            "question": "How often are you engaged in improving the appearance of the surroundings?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Never",
+                    "nextStep": 52
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 52
+                },
+                {
+                    "answer": "Often",
+                    "nextStep": 52
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 52
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 52
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 52,
+            "questionId": 47,
+            "question": "How often are you engaged in electing for neighbourhood associations?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Never",
+                    "nextStep": 53
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 53
+                },
+                {
+                    "answer": "Often",
+                    "nextStep": 53
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 53
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 53
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 53,
+            "questionId": 48,
+            "question": "How often are you engaged in implementing energy, water and greenary saving solutions?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Never",
+                    "nextStep": 54
+                },
+                {
+                    "answer": "Sometimes",
+                    "nextStep": 54
+                },
+                {
+                    "answer": "Often",
+                    "nextStep": 54
+                },
+                {
+                    "answer": "Always",
+                    "nextStep": 54
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 54
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 54,
+            "questionId": 49,
+            "question": "Please share your views concerning this topic.",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 55
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 55,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 56
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Section 5: Respondent's Data"
+                  ],
+                  "text": ["This section refers to some personal data that are important for the questionnaire."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 56,
+            "questionId": 50,
+            "question": "Please specify the year of your birth:",
+            "questionType": "number",
+            "min": 1900,
+            "max": 2050,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 57
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 57,
+            "questionId": 51,
+            "question": "Please specify your education level:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Primary school level",
+                    "nextStep": 58
+                },
+                {
+                    "answer": "Secondary school level",
+                    "nextStep": 58
+                },
+                {
+                    "answer": "Bachelor level",
+                    "nextStep": 58
+                },
+                {
+                    "answer": "Master level",
+                    "nextStep": 58
+                },
+                {
+                    "answer": "Postgraduate level and higher",
+                    "nextStep": 58
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 58,
+            "questionId": 52,
+            "question": "Please specify your status:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Student",
+                    "nextStep": 59
+                },
+                {
+                    "answer": "Unemployed",
+                    "nextStep": 59
+                },
+                {
+                    "answer": "Employed",
+                    "nextStep": 59
+                },
+                {
+                    "answer": "Retired",
+                    "nextStep": 59
+                },
+                {
+                    "answer": "Other",
+                    "nextStep": 59
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 59,
+            "questionId": 53,
+            "question": "Please provide your address in the following format (Country/City/Street):",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 60
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 60,
+            "questionId": 54,
+            "question": "Please provide your postal code:",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 1,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": -1,
+            "questionId": "",
+            "question": "",
+            "questionType": "end",
+            "answer": "",
+            "skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        }
+    ]
+}

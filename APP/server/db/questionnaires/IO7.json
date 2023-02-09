@@ -1,0 +1,842 @@
+{
+    "name": "Perception of Living Area",
+    "type": "IO7",
+    "totalQ": 25,
+    "questions":[
+        {
+            "stepId": 0,
+            "questionId": "",
+            "question": "",
+            "questionType": "start",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 1
+                }
+            ],
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 1,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 2
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Perception of Living Area Questionnaire"
+                  ],
+                  "text": [
+                      "The aim of this questionnaire is to learn about citizens perception of the analysed place in terms of environmental issues and urban design.",
+                      "This questionnaire is dedicated to field interviews and takes about 5 minutes.",
+                      "Thank you for your time!"
+                  ],
+                  "steps": []
+            },
+            "noteButtonText": "START",
+            "images": []
+        },
+        {
+            "stepId": 2,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 3
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Section 1: Perception of living area"
+                  ],
+                  "text": ["This part refers to your perception of analyzed area design."],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 3,
+            "questionId": 1,
+            "question": "Is this area nicely designed with well structured streets and buildings?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 4
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 4
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 4
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 4
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 4,
+            "questionId": 2,
+            "question": "Is this area equipped with basic services within walking distance?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 5
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 5
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 5
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 5
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 5,
+            "questionId": 3,
+            "question": "Is this area walkable, easy to walk around?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 6
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 6
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 6,
+            "questionId": 4,
+            "question": "Is this area friendly to children and family activities?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 7
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 7
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 7,
+            "questionId": 5,
+            "question": "Is this area friendly to disabled or older adults?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 8
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 8
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 8,
+            "questionId": 6,
+            "question": "Is this area equipped with spaces where you can do outdoor sports?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 9
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 9
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 9,
+            "questionId": 7,
+            "question": "Is this area safe?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 10
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 10
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 10
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 10
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 10,
+            "questionId": 8,
+            "question": "Is this area comfortable interacting with strangers?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 11
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 11
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 11,
+            "questionId": 9,
+            "question": "Is this area clean and aesthetic?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 12
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 12
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 12,
+            "questionId": 10,
+            "question": "Is this area accesible by public transport?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 13
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 13
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 13
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 13
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 13,
+            "questionId": 11,
+            "question": "Is this area accessible by bikes?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 14
+                },
+                {
+                    "answer": "Partly",
+                    "nextStep": 14
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 14
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 14
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 14,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 15
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Section 2: Awareness of environmental hazards"
+                  ],
+                  "text": ["This part refers to your perception of climate change and exposure to environmental hazards"],
+                  "steps": []
+            },
+            "noteButtonText": "Continue",
+            "images": []
+        },
+        {
+            "stepId": 15,
+            "questionId": 12,
+            "question": "How much do you concern about environmental issues of your neighbourhood?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "1 I do not concern at all.",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "2",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "3",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "4",
+                    "nextStep": 16
+                },
+                {
+                    "answer": "5 I concern very much.",
+                    "nextStep": 16
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 16,
+            "questionId": 13,
+            "question": "Is this area exposed to floods?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 17
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 17
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 17,
+            "questionId": 14,
+            "question": "Is this area exposed to thermal extremes?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 18
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 18
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 18,
+            "questionId": 15,
+            "question": "Is this area exposed to droughts?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 19
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 19
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 19,
+            "questionId": 16,
+            "question": "Is this area exposed to noise?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 20
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 20
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 20,
+            "questionId": 17,
+            "question": "Is this area exposed to light pollution?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 21
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 21
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 21,
+            "questionId": 18,
+            "question": "Is this area exposed to landslides?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 22
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 22
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 22,
+            "questionId": 19,
+            "question": "Is this area exposed to water pollution?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 23
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 23
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 23,
+            "questionId": 20,
+            "question": "Is this area exposed to degradation of greenery?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 24
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 24
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 24,
+            "questionId": 21,
+            "question": "Is this area exposed to lack of biodiversity?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 25
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 25
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 25,
+            "questionId": 22,
+            "question": "Is this area exposed to plastic pollution?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No",
+                    "nextStep": 26
+                },
+                {
+                    "answer": "Rather No",
+                    "nextStep": 26
+                },
+                {
+                    "answer": "Rather Yes",
+                    "nextStep": 26
+                },
+                {
+                    "answer": "Yes",
+                    "nextStep": 26
+                },
+                {
+                    "answer": "I do not know",
+                    "nextStep": 26
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 26,
+            "questionId": 23,
+            "question": "How often are you in this area?",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "few times per year",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "once a month",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "once a week",
+                    "nextStep": 27
+                },
+                {
+                    "answer": "almost every day",
+                    "nextStep": 27
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 27,
+            "questionId": 24,
+            "question": "Please specify the year of your birth:",
+            "questionType": "number",
+            "min": 1900,
+            "max": 2050,
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 28
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 28,
+            "questionId": 25,
+            "question": "Please specify your status:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Student",
+                    "nextStep": -1
+                },
+                {
+                    "answer": "Unemployed",
+                    "nextStep": -1
+                },
+                {
+                    "answer": "Employed",
+                    "nextStep": -1
+                },
+                {
+                    "answer": "Retired",
+                    "nextStep": -1
+                },
+                {
+                    "answer": "Other",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": -1,
+            "questionId": "",
+            "question": "",
+            "questionType": "end",
+            "answer": "",
+            "skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        }
+    ]
+}

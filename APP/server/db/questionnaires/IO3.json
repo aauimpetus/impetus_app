@@ -1,0 +1,642 @@
+{
+    "name": "Street Scan Scorecard - Water Governance",
+    "type": "IO3",
+    "totalQ": 16,
+    "questions":[
+        {
+            "stepId": 0,
+            "questionId": "",
+            "question": "",
+            "questionType": "start",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 1
+                }
+            ],
+			"skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 1,
+            "questionId": 0,
+            "question": "Please provide the name of the street to be scanned:",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 2
+                }
+       
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 2,
+            "questionId": 0,
+            "question": "Choose the street segment of interest:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Segment 1",
+                    "nextStep": 3
+                },
+                {
+                    "answer": "Segment 2",
+                    "nextStep": 3
+                },
+                {
+                    "answer": "Segment 3",
+                    "nextStep": 3
+                },
+                {
+                    "answer": "Segment 4",
+                    "nextStep": 3
+                },
+                {
+                    "answer": "Segment 5",
+                    "nextStep": 3
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 3,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 4
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Category: Greenery and Plants"
+                  ],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "START",
+            "images": []
+        },
+        {
+            "stepId": 4,
+            "questionId": 1,
+            "question": "Measure the trees:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No trees",
+                    "score": 0,
+                    "nextStep": 9
+                },
+                {
+                    "answer": "There are some trees",
+                    "score": 0,
+                    "nextStep": 5
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 5,
+            "questionId": 1.1,
+            "question": "Tree Category 1 (0-10 meters high): Count total amound of trees of this category",
+            "questionType": "number",
+            "answer": [
+                {
+                    "answer": "",
+                    "score": 2,
+                    "nextStep": 6
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 6,
+            "questionId": 1.2,
+            "question": "Tree Category 2 (10-15 meters high): Count total amound of trees of this category",
+            "questionType": "number",
+            "answer": [
+                {
+                    "answer": "",
+                    "score": 3,
+                    "nextStep": 7
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 7,
+            "questionId": 1.3,
+            "question": "Tree Category 3 (15+ meters high): Count total amound of trees of this category",
+            "questionType": "number",
+            "answer": [
+                {
+                    "answer": "",
+                    "score": 4,
+                    "nextStep": 8
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 8,
+            "questionId": 1.4,
+            "question": "Insert the length of the street in meters:",
+            "questionType": "number",
+            "answer": [
+                {
+                    "answer": "",
+                    "score": 0,
+                    "nextStep": 9
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 9,
+            "questionId": 2,
+            "question": "Green wall/Vertical farming: (Either the unintentional growth of ivy or an intentional vertical garden can be counted)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No house has a green wall in the street",
+                    "score": 0,
+                    "nextStep": 10
+                },
+                {
+                    "answer": "1% to 25% of all houses have a green wall",
+                    "score": 1,
+                    "nextStep": 10
+                },
+                {
+                    "answer": "25% to 50%  of all houses have a green wall",
+                    "score": 2,
+                    "nextStep": 10
+                },
+                {
+                    "answer": "50% to 75%  of all houses have a green wall",
+                    "score": 3,
+                    "nextStep": 10
+                },
+                {
+                    "answer": "75% to 100%  of all houses have a green wall",
+                    "score": 4,
+                    "nextStep": 10
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 10,
+            "questionId": 3,
+            "question": "Facade garden and front yard: (If it's exactly 75%, give the benefit of the doubt and award the most points)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No houses with a facade garden or front yard",
+                    "score": 0,
+                    "nextStep": 11
+                },
+                {
+                    "answer": "1% to 50% of the houses have a facade garden",
+                    "score": 5,
+                    "nextStep": 11
+                },
+                {
+                    "answer": "50 to 100% of the houses have a facade garden",
+                    "score": 6,
+                    "nextStep": 11
+                },
+                {
+                    "answer": "1% to 25% of houses have a front yard",
+                    "score": 10,
+                    "nextStep": 11
+                },
+                {
+                    "answer": "25% to 50% of houses have a front yard",
+                    "score": 12,
+                    "nextStep": 11
+                },
+                {
+                    "answer": "50% to 75% of houses have a front yard",
+                    "score": 14,
+                    "nextStep": 11
+                },
+                {
+                    "answer": "75% to 100% of houses have a front yard",
+                    "score": 16,
+                    "nextStep": 11
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 11,
+            "questionId": 4,
+            "question": "Green strip and field of grass (minimum 5 meters in length): (Always award points to the largest field of grass, do not combine points)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No green strip or field of grass in the street",
+                    "score": 0,
+                    "nextStep": 12
+                },
+                {
+                    "answer": "There is a small field of grass in the street (10-25 m2)",
+                    "score": 9,
+                    "nextStep": 12
+                },
+                {
+                    "answer": "There is a fairly sized field of grass in the street (25-100 m2)",
+                    "score": 11,
+                    "nextStep": 12
+                },
+                {
+                    "answer": "There is a large sized field of grass in the street (> 100 m2)",
+                    "score": 13,
+                    "nextStep": 12
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 12,
+            "questionId": 5,
+            "question": "Cllimate adaptive roofs (Albedo/Green/Blue roofs): (Use google maps to see if any adaptive measures have been done on roofs.)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "There are no climate adaptive roofs on the houses",
+                    "score": 0,
+                    "nextStep": 13
+                },
+                {
+                    "answer": "1% to 50% of all houses in the street have a climate adaptive roof",
+                    "score": 1,
+                    "nextStep": 13
+                },
+                {
+                    "answer": "50% to 100% of all houses in the street have a climate adaptive roof",
+                    "score": 2,
+                    "nextStep": 13
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 13,
+            "questionId": 6,
+            "question": "Green parking lots:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "There are no green parking lots in the street",
+                    "score": 0,
+                    "nextStep": 14
+                },
+                {
+                    "answer": "1% to 50% of the parking lots are green",
+                    "score": 1,
+                    "nextStep": 14
+                },
+                {
+                    "answer": "50% to 100% of the parking lots are green",
+                    "score": 2,
+                    "nextStep": 14
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 14,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 15
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Category: Rain and water"
+                  ],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "START",
+            "images": []
+        },
+        {
+            "stepId": 15,
+            "questionId": 7,
+            "question": "Rain barrels: (Check if any drainage pipes on house facades lead to a rain barrel)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "No rain barrels in the street",
+                    "score": 0,
+                    "nextStep": 16
+                },
+                {
+                    "answer": "There is at least 1 rain barrel in the street",
+                    "score": 1,
+                    "nextStep": 16
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 16,
+            "questionId": 8,
+            "question": "Paved ground with permeable characteristics (Sidewalk and street): (Weeds between tiles don't count as permeable pavement, it has to be an intentional measure)",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "There is no permeable pavement in the street",
+                    "score": 0,
+                    "nextStep": 17
+                },
+                {
+                    "answer": "The sidewalk consists of permeable pavement ",
+                    "score": 1,
+                    "nextStep": 17
+                },
+                {
+                    "answer": "The street consists of permeable pavement",
+                    "score": 2,
+                    "nextStep": 17
+                },
+                {
+                    "answer": "Both the street and sidewalk consist of permeable pavement",
+                    "score": 3,
+                    "nextStep": 17
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 17,
+            "questionId": 9,
+            "question": "Bioswale:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "There is no bioswale next or close to the street",
+                    "score": 0,
+                    "nextStep": 18
+                },
+                {
+                    "answer": "A bioswale can be found in the street or within 50m of the street",
+                    "score": 5,
+                    "nextStep": 18
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 18,
+            "questionId": 10,
+            "question": "Surface water:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "There is no surface water next or close to the street",
+                    "score": 0,
+                    "nextStep": 19
+                },
+                {
+                    "answer": "Surface water can be found in or near the street",
+                    "score": 5,
+                    "nextStep": 19
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 19,
+            "questionId": "",
+            "question": "",
+            "questionType": "note",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 20
+                }
+            ],
+            "skip": 0,
+            "note": {
+                "titles": [
+                    "Category: Bonus and Deduction"
+                  ],
+                  "text": [],
+                  "steps": []
+            },
+            "noteButtonText": "START",
+            "images": []
+        },
+        {
+            "stepId": 20,
+            "questionId": 11,
+            "question": "Shaded areas (canopy):",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "There are no shaded areas in the street",
+                    "score": 0,
+                    "nextStep": 21
+                },
+                {
+                    "answer": "There are only shaded areas in the street because of trees",
+                    "score": 1,
+                    "nextStep": 21
+                },
+                {
+                    "answer": "There are specially designed shade spots (For instance: Canvas shade sails or artificially created canopy)",
+                    "score": 2,
+                    "nextStep": 21
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 21,
+            "questionId": 12,
+            "question": "If present, unpaved surface located lower than paved surface:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Unpaved surface lies higher than paved surface",
+                    "score": 0,
+                    "nextStep": 22
+                },
+                {
+                    "answer": "Unpaved surface lies lower than paved surface",
+                    "score": 2,
+                    "nextStep": 22
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 22,
+            "questionId": 13,
+            "question": "Parking spaces:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Cars are parked on the street (No designated parking spaces)",
+                    "score": 0,
+                    "nextStep": 23
+                },
+                {
+                    "answer": "Car free street",
+                    "score": 2,
+                    "nextStep": 23
+                },
+                {
+                    "answer": "Designated parking spots are present",
+                    "score": -2,
+                    "nextStep": 23
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 23,
+            "questionId": 14,
+            "question": "Driving lanes:",
+            "questionType": "radio",
+            "answer": [
+                {
+                    "answer": "Car free street",
+                    "score": 1,
+                    "nextStep": 24
+                },
+                {
+                    "answer": "1 point deduction (one-way road)",
+                    "score": -1,
+                    "nextStep": 24
+                },
+                {
+                    "answer": "2 points deduction (street with traffic from both sides)",
+                    "score": -2,
+                    "nextStep": 24
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 24,
+            "questionId": 15,
+            "question": "What is your first impression of this street?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": 25
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": 25,
+            "questionId": 16,
+            "question": "Lastly, what would you change about this street to make it better adapted to future climate?",
+            "questionType": "text",
+            "answer": [
+                {
+                    "answer": "",
+                    "nextStep": -1
+                }
+            ],
+            "skip": 0,
+            "note": [],
+            "noteButtonText": "",
+            "images": []
+        },
+        {
+            "stepId": -1,
+            "questionId": "",
+            "question": "",
+            "questionType": "end",
+            "answer": "",
+			"skip": 0,
+            "note": "",
+            "noteButtonText": "",
+            "images": []
+        }
+    ]
+}
