@@ -115,4 +115,4 @@ In order to start the database, assuming that we have already installed the data
 cd [path of the app folder]/impetus_2/APP
 rethinkdb
 ```
-For accesing the adiministration panel, we open a browser and navigate to http://localhost:8080
+> For accesing the adiministration panel, we open a browser and navigate to http://localhost:8080
